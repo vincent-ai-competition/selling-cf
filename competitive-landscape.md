@@ -28,6 +28,7 @@ The one structural moat no competitor has replicated: **the holder-gated mechani
 ## 2. Competitor Profiles
 
 ### 2.1 Virtuals Protocol
+**Link**: [virtuals.io](https://www.virtuals.io/) | **Twitter**: [@virtuals_io](https://x.com/virtuals_io)
 
 **Type**: Tier 1 Direct — AI Agent Tokenization + Skill Economy
 **Chain**: Base (primary, 90.2% of DAW), Solana, Ethereum mainnet
@@ -49,17 +50,22 @@ The one structural moat no competitor has replicated: **the holder-gated mechani
 - Strong community and Twitter presence (281K followers)
 - Real revenue: $39.5M protocol earnings to date
 
+**Why users choose them:** One-click agent launch with a tokenized identity — same appeal as pump.fun but for AI. Speculation on agent tokens + viral social proof (Luna's 500K TikTok followers) drives FOMO-driven buying. Token economics are simple and familiar to the Base/DeFi audience.
+
 **What they lack / their gap:**
 - No skill marketplace — agents can have capabilities, but there is no open skill distribution economy
 - No holder-gated mechanic — no incentive for shareholders to access agent functionality
 - No social stream — agents don't have a native feed/community layer
 - **Not on BNB Chain** — Base/Solana native; BNB's 130M+ retail wallets are untouched by Virtuals
 
+**What ClawFriend can learn:** Virtuals' viral loop is entertainment + speculation. ClawFriend must add a *utility* layer on top of speculation — skills give holders a concrete reason to hold beyond price appreciation. The 18K agent count is also a distribution signal: the more agents on-chain, the more skill demand. ClawFriend should target the same developer community that ships agents on Virtuals as potential skill publishers.
+
 **ClawFriend vs. Virtuals**: Virtuals wins on volume and agent count. ClawFriend wins on the three-layer integration (trading + social + skills) and on BNB. These are complements more than direct substitutes — a developer choosing where to launch an *economy-based agent with a skill market* would choose ClawFriend.
 
 ---
 
 ### 2.2 elizaOS / ai16z ELIZA
+**Link**: [elizaos.ai](https://elizaos.ai/) | **GitHub**: [github.com/elizaOS/eliza](https://github.com/elizaOS/eliza)
 
 **Type**: Tier 1 Direct — Open-Source AI Agent Framework
 **Chain**: Solana-native; multi-chain support
@@ -72,55 +78,66 @@ The one structural moat no competitor has replicated: **the holder-gated mechani
 | Discord members | 13,000+ | elizaos.github.io |
 | Framework language | TypeScript | GitHub |
 | Plugin ecosystem | Growing — Community-driven, no marketplace fees | elizaos.github.io |
-| Monetization model | None (open source) | N/A |
+| Monetization model | None (open source, no marketplace fees) | N/A |
 
 **What they do well:**
 - Largest open-source AI agent framework in Web3 by GitHub activity
 - Vibrant developer community (13K+ Discord, 17.5K GitHub stars)
 - Modular architecture — plugins/skills add any capability
 
+**Why users choose them:** Developers choose elizaOS for full control and open-source flexibility — no lock-in, no platform fees, deploy anywhere. The 17.5K GitHub stars indicate strong developer trust. Community-driven plugin ecosystem means you can find a plugin for almost any use case without waiting for a central team to build it.
+
 **What they lack / their gap:**
 - No native trading mechanics — no bonding curve, no share economy
 - No social stream — no built-in agent-to-agent or agent-to-human social layer
 - No skill marketplace — plugins exist as GitHub repos, not a discoverable/monetizable market
 - No holder-gated access model — no financial incentive for skill distribution
-- No revenue model for skill creators
+- No revenue model for skill creators — building plugins is purely altruistic or for reputation
+
+**What ClawFriend can learn:** elizaOS' 17.5K GitHub stars proves that developers want to build agent skills — the demand for a skill ecosystem is real. ClawFriend should have a frictionless "1-click publish from GitHub" path so elizaOS plugin developers can port skills to ClawFriend's marketplace and start earning subjectFee. Target elizaOS Discord (13K members) as a cold-outreach channel for early skill developers.
 
 **ClawFriend vs. elizaOS**: Not direct competitors. elizaOS is a framework; ClawFriend is an economy. An agent built on elizaOS could theoretically *install* a ClawFriend skill to participate in the ClawFriend economy. elizaOS demonstrates that developer demand for AI agent tooling is high (17.5K GitHub stars) — this is the audience ClawFriend's GitHub strategy should target.
 
 ---
 
 ### 2.3 SingularityNET
+**Link**: [singularitynet.io](https://singularitynet.io/) | **Marketplace**: [marketplace.singularitynet.io](https://marketplace.singularitynet.io)
 
 **Type**: Tier 2 Adjacent — Decentralized AI Marketplace
-**Chain**: Ethereum + Cardano
+**Chain**: Ethereum + Cardano (AGIX); merging into ASI Alliance with Fetch.ai + Ocean Protocol
 **BNB presence**: None
 
 | Metric | Value | Source |
 |---|---|---|
-| AI services in marketplace | **70+** | [marketplace.singularitynet.io](https://marketplace.singularitynet.io) |
+| AI services in marketplace | **70+** | [marketplace.singularitynet.io](https://marketplace.singularitynet.io), Feb 2026 |
 | Founded | 2017 | Crunchbase |
-| Token | AGIX (on Ethereum + Cardano) | CoinMarketCap |
-| User base | Not publicly disclosed | N/A |
-| Monetization | Service fees paid in AGIX | Platform docs |
+| Token | AGIX (merging into ASI) | CoinMarketCap |
+| AGIX market cap | **~$455M** (Oct 2025) | CoinMarketCap |
+| GitHub org | [github.com/singnet](https://github.com/singnet) — multiple active repos | GitHub |
+| Monetization | Service fees paid in AGIX token | Platform docs |
 
 **What they do well:**
-- Pioneer in decentralized AI marketplaces — 7+ years operating
+- Pioneer in decentralized AI marketplaces — 7+ years of continuous operation
 - Real AI services available (voice cloning, neural image generation, etc.)
-- Academic and enterprise credibility
+- Academic and enterprise credibility; ASI Alliance merger brings Fetch.ai + Ocean Protocol user base
+
+**Why users choose them:** Enterprise/academic researchers who need programmable AI APIs with token-based micropayments. They're not choosing SingularityNET because it's the best UX — they choose it because it's been the only serious decentralized AI marketplace for years. "First mover in decentralized AI" is their only moat.
 
 **What they lack / their gap:**
 - Dated UX — feels like 2019 tech, not competitive with modern AI tooling
 - No agent autonomy — services are callable APIs, not autonomous agents
 - No trading mechanics or social layer
-- 70 services after 7 years is very low growth signal
+- **70 services after 7 years = 10 services/year growth rate** — extremely slow; shows the two-sided marketplace cold-start problem ClawFriend also faces
 - Not targeting retail crypto / DeFi audience at all
+
+**What ClawFriend can learn:** SingularityNET's slow growth (70 services in 7 years) is a warning about building marketplace supply without a demand flywheel. Their mistake: no incentive to *hold* the token to access services. ClawFriend's holder-gated mechanic directly solves this — holding shares = access to skills = reason to buy and hold, not just use then sell.
 
 **ClawFriend vs. SingularityNET**: Different target users. SingularityNET serves academic/enterprise AI API consumers. ClawFriend targets retail DeFi users + autonomous AI agents. SingularityNET is not a threat; it validates that decentralized AI marketplaces can exist and earn revenue.
 
 ---
 
 ### 2.4 Fetch.ai (Agentverse / DeltaV)
+**Link**: [fetch.ai](https://www.fetch.ai/) | **Marketplace**: [agentverse.ai](https://agentverse.ai)
 
 **Type**: Tier 2 Adjacent — Decentralized Agent Services Marketplace
 **Chain**: Fetch.ai mainnet (Cosmos-based), not EVM
@@ -132,25 +149,30 @@ The one structural moat no competitor has replicated: **the holder-gated mechani
 | Active wallets (2024) | **130,000+** | fetch.ai blog, 2024 |
 | Platform | Agentverse (agent hosting) + DeltaV (discovery chat interface) | agentverse.ai |
 | Token | FET (merged into ASI Alliance with AGIX + OCEAN) | CoinMarketCap |
-| Monetization | Agent service fees in FET | Platform docs |
+| Monetization | Agent service fees in FET token | Platform docs |
 
 **What they do well:**
-- Enterprise-grade agent infrastructure (real client deployments)
-- Large on-chain activity (24M+ transactions)
-- DeltaV is an interesting discovery UI concept
+- Enterprise-grade agent infrastructure (real client deployments in supply chain, DeFi, logistics)
+- Large on-chain activity (24M+ transactions, 130K active wallets)
+- DeltaV is a smart concept: LLM-powered agent discovery chat interface
+
+**Why users choose them:** Enterprise developers who need B2B agent infrastructure that can plug into existing systems. They're not choosing Fetch.ai for speculation — they choose it for legitimate automation workloads. FET token payments give them a programmable micropayment layer without credit card friction.
 
 **What they lack / their gap:**
 - Enterprise focus — not targeting retail crypto users
 - No bonding curve / share trading for agent value
 - No social layer
 - Non-EVM chain — zero overlap with BNB/PancakeSwap DeFi users
-- Skill monetization is clunky (FET token micropaements, complex setup)
+- Skill monetization is clunky (FET token micropayments, complex Cosmos setup)
+
+**What ClawFriend can learn:** Fetch.ai's DeltaV (LLM-powered agent discovery) is an excellent UX concept ClawFriend's Skill Market should incorporate. Instead of a static skill directory, an AI-powered "tell me what you need → here's which skill to install" discovery interface would dramatically reduce the barrier to skill adoption. Also: 130K active wallets with real on-chain usage proves the B2C agent market is larger than B2B.
 
 **ClawFriend vs. Fetch.ai**: Different market segments entirely. Fetch.ai is B2B/enterprise. ClawFriend is B2C/retail + agent-to-agent. No direct competition.
 
 ---
 
 ### 2.5 friend.tech
+**Link**: [friend.tech](https://www.friend.tech/) *(shut down Sep 2024)* | **Chain**: Base
 
 **Type**: Tier 3 Parallel — Bonding Curve Social Platform
 **Chain**: Base (Ethereum L2)
@@ -158,24 +180,28 @@ The one structural moat no competitor has replicated: **the holder-gated mechani
 
 | Metric | Value | Source |
 |---|---|---|
-| Peak daily new users | **68,640** (Oct 15, 2023 peak) | DL News, 2024 |
+| Peak daily new users | **68,640** (Oct 15, 2023 peak) | [DL News, 2024](https://dailycoin.com/friend-tech-hype-fizzles-to-crawl-daily-transactions-vanish/) |
 | Peak daily transactions | **539,810** | DL News, 2024 |
 | Peak daily fees | **$2M/day** | DL News, 2024 |
 | Collapse daily active users | **15 users** (July 2024) | DL News |
 | Collapse daily fees | **<$100** | DL News |
 | FRIEND token: launch → crash | $3 → $0.08 within months of airdrop | DL News |
 | Final action | Devs transferred contracts to burn address (abandoned) | [dlnews.com](https://www.dlnews.com/articles/defi/friend-tech-shuts-down-after-revenue-and-users-plummet/) |
-| Creator payout | $44M walked away | Yahoo Finance |
+| Creator payout | $44M walked away | [Yahoo Finance](https://finance.yahoo.com/news/social-platform-friend-tech-shuts-065105515.html) |
 
 **What they proved:**
 - Bonding curve social mechanics *can* create massive initial demand (539K daily TX at peak)
 - Crypto users will pay to access content / conversation if gated by a token mechanic
 - The SocialFi + bonding curve combination is a real market
 
+**Why users chose them (at peak):** FOMO + speculation. Buying someone's keys = "insider" access to their content/DMs + upside if their popularity grew. The mechanic felt like early access to a celebrity — users paid to be early, not because the DM was worth $100.
+
 **Why they failed:**
 - No utility layer — keys/shares gave access to chat DMs, nothing else
-- Once the airdrop hit, all incentive to hold evaporated
-- No skill market → no recurring utility → pure speculation that eventually corrected to zero
+- Once the airdrop hit, all incentive to hold evaporated immediately
+- No skill market → no recurring utility → pure speculation that corrected to zero
+
+**What ClawFriend can learn:** friend.tech's mistake is ClawFriend's founding insight. Bonding curve + gated access *works for acquisition* — the mistake was gating only DMs (one-time utility). ClawFriend gates *skills* (recurring utility that improves with each new skill launched). Every skill published adds a new reason to hold shares permanently. The utility cannot "expire" the way DM access did.
 
 **ClawFriend vs. friend.tech**: friend.tech is the cautionary tale *and* the proof of concept. It proves the bonding curve model works for acquisition. ClawFriend solves exactly what killed friend.tech: the holder-gated mechanic provides *ongoing utility* (access to skills) — not just chat access. This is the core differentiator argument.
 
@@ -184,6 +210,7 @@ The one structural moat no competitor has replicated: **the holder-gated mechani
 ---
 
 ### 2.6 Gaia Network (Gaianet.ai)
+**Link**: [gaianet.ai](https://www.gaianet.ai/) | **Docs**: [docs.gaianet.ai](https://docs.gaianet.ai/)
 
 **Type**: Tier 4 Infrastructure — Decentralized AI Inference / Agent Nodes
 **Chain**: Ethereum (EigenLayer restaking)
@@ -193,14 +220,16 @@ The one structural moat no competitor has replicated: **the holder-gated mechani
 |---|---|---|
 | Installed nodes | **685K+** (July 2025) | [docs.gaianet.ai](https://docs.gaianet.ai/) |
 | Revenue generated | **$657K+** | docs.gaianet.ai, July 2025 |
-| GitHub: gaianet-node | Active development | github.com/GaiaNet-AI |
+| GitHub: gaianet-node | Active development | [github.com/GaiaNet-AI](https://github.com/GaiaNet-AI) |
 | Model | Deploy your own AI node, earn from serving inference | Platform docs |
 | Monetization | Node operators earn fees from API consumers | Platform |
 
 **What they do well:**
-- Very large node count (685K+) — strong distribution signal
-- Decentralized inference market — genuinely useful compute layer
-- Strong developer adoption
+- Very large node count (685K+) — impressive developer distribution
+- Decentralized inference market — genuinely useful compute layer that doesn't exist elsewhere
+- Strong developer adoption through easy node setup
+
+**Why users choose them:** Developers who want to run private AI inference without relying on OpenAI/Anthropic APIs — either for cost, privacy, or customization. Node operators choose Gaia to earn income from spare compute. The $657K+ revenue proves people will pay for decentralized AI compute.
 
 **What they lack / their gap:**
 - Not a skill marketplace — Gaia nodes serve AI inference, not discrete agent skills
@@ -208,11 +237,14 @@ The one structural moat no competitor has replicated: **the holder-gated mechani
 - No social layer
 - Different value proposition: compute layer vs. agent economy
 
+**What ClawFriend can learn:** Gaia's 685K node count proves developers are willing to run infrastructure for AI at scale when there's a financial incentive. ClawFriend should similarly make skill publishing financially attractive — the subjectFee model (5% of every share trade) is that incentive. Gaia also shows that even "boring" infrastructure can reach massive scale when the economic model is right.
+
 **ClawFriend vs. Gaia**: Potential partners more than competitors. Gaia could supply compute to ClawFriend agents; ClawFriend could supply demand for Gaia nodes. Not in direct competition.
 
 ---
 
 ### 2.7 OpenClaw / ClawHub
+**Link**: [clawhub.ai](https://clawhub.ai) | **GitHub**: [github.com/openclaw/clawhub](https://github.com/openclaw/clawhub)
 
 **Type**: Tier 4 Infrastructure — Agent Skill Registry (ClawFriend's distribution channel)
 **Chain**: None (off-chain skill registry)
@@ -227,15 +259,20 @@ The one structural moat no competitor has replicated: **the holder-gated mechani
 | Creator | Peter Steinberger (@steipete) | clawhub.ai footer |
 | License | MIT (open source) | GitHub: openclaw/clawhub |
 
+**Why developers use ClawHub:** It's the npm for AI agent skills — zero friction to publish or install. `npx clawhub@latest install <skill-name>` is the entire install command. MIT license and GitHub auth make it the default choice for OpenClaw framework users who want to share capabilities without building their own distribution layer.
+
 **Full ClawHub analysis**: See [README.md — ClawHub Ecosystem Deep Dive](./README.md#clawhub-ecosystem-deep-dive-primary-distribution-channel--research-done)
 
 **Key insight**: ClawHub's 10,324 skills are dominated by productivity/developer tools. Zero BNB DeFi-native skills exist. Web3 crypto skills max out at 2,700 downloads vs. 34,800 for top productivity skills — a **13× gap**. First-mover in BNB DeFi skills on ClawHub is essentially uncontested.
 
 **Blocking issue**: ClawFriend skill is currently flagged as "Suspicious" by VirusTotal. This must be resolved before any distribution effort — the flag is the primary reason installs = 1 despite 1,100 page views.
 
+**What ClawFriend can learn:** ClawHub's top skill (34.8K downloads for Gog/Google Workspace) shows that *utility-first* skills dominate. The most-downloaded skills solve a concrete daily task, not a speculative use case. ClawFriend's first published skills should follow the same pattern: solve a specific, daily problem for a DeFi trader (whale alerts, new token scanner) rather than abstract "AI agent economy" features.
+
 ---
 
 ### 2.8 OpenAI GPT Store
+**Link**: [chatgpt.com/gpts](https://chatgpt.com/gpts)
 
 **Type**: Tier 5 Centralized — AI Skill/Plugin Marketplace
 **Chain**: None (centralized, no blockchain)
@@ -253,18 +290,40 @@ The one structural moat no competitor has replicated: **the holder-gated mechani
 - Simple UX — zero setup required
 - Brand trust is unmatched
 
+**Why users choose them:** Frictionless UX (already in ChatGPT) + massive brand trust + 200M+ existing user base. Users don't install GPTs for financial upside — they install them because they're already in the ChatGPT interface and one click solves a problem. It's habit, not conviction.
+
 **What they lack / their gap:**
 - No real-time on-chain data access (can't execute BNB transactions)
-- No creator monetization — skill creators earn nothing
+- No creator monetization — skill creators earn nothing from GPT installs
 - No trading mechanics — no economic incentive layer
-- Centralized — OpenAI can remove/modify any GPT
+- Centralized — OpenAI can remove/modify any GPT at will, no creator ownership
 - No social layer between agents
 
-**ClawFriend vs. GPT Store**: Different audience. GPT Store users pay $20/mo for convenience. ClawFriend users are BNB DeFi-native — they want on-chain execution, not just chat. Use this in Q&A to answer *"why not just use ChatGPT?"*
+**What ClawFriend can learn:** GPT Store's 500K+ public GPTs prove that people want a marketplace of AI capabilities — the concept is validated at massive scale. The lesson is UX: ClawFriend's skill discovery must be as frictionless as the GPT Store. The current ClawHub CLI install method is acceptable for developers, but non-technical users need a one-click install from the ClawFriend UI.
+
+**ClawFriend vs. GPT Store**: Different audience entirely. GPT Store users pay $20/mo for convenience. ClawFriend users are BNB DeFi-native — they want on-chain execution, real-time wallet data, and autonomous trading. Use this in Q&A to answer *"why not just use ChatGPT?"*
 
 ---
 
-## 3. Competitive Matrix (Side-by-Side)
+## 3. Market Stage Analysis
+
+**Verdict: Early Growth (not Nascent, not Mature)**
+
+The Web3 AI agent economy has passed the pure experimentation phase (Nascent) but is not yet at commoditization (Mature). Evidence for **Early Growth**:
+
+| Signal | Evidence | Interpretation |
+|---|---|---|
+| **Real revenue exists** | Virtuals: $39.5M protocol revenue all-time; Gaia: $657K+ revenue | Market has moved past "only speculation" |
+| **High growth but fragmented** | Virtuals: 18K agents in ~2 years; elizaOS: 17.5K GitHub stars in <18 months | No dominant player has captured the market yet |
+| **One major failure already** | friend.tech: shut down Sep 2024 after $2M/day peak → collapse to $0 | Market is real but early — mechanics that don't have utility fail fast |
+| **BNB Chain = completely unclaimed** | Zero serious AI agent economy players on BNB despite 130M+ DeFi wallets | The BNB vertical hasn't even entered Growth phase yet — it's still Nascent |
+| **Skill ecosystems are empty** | ClawHub: 10,324 skills but 0 BNB DeFi skills; Virtuals: 18K agents, no skill market | The skill layer is at Day 0, even where agent trading is mature |
+
+**Strategic implication**: Early Growth markets reward the first player who establishes a *dominant habit* — the tool users reach for first when they need the use case. ClawFriend has the infrastructure to be that habit on BNB. The window is open but not permanent — Virtuals could expand to BNB, elizaOS could add marketplace features. Speed matters.
+
+---
+
+## 4. Competitive Matrix (Side-by-Side)
 
 | Feature | ClawFriend | Virtuals Protocol | elizaOS | SingularityNET | Fetch.ai | friend.tech | GPT Store |
 |---|---|---|---|---|---|---|---|
@@ -279,7 +338,7 @@ The one structural moat no competitor has replicated: **the holder-gated mechani
 
 ---
 
-## 4. Market Positioning Map
+## 5. Market Positioning Map
 
 ```
                     HIGH UTILITY / SKILL ECOSYSTEM
@@ -303,7 +362,7 @@ CENTRALIZED ───────────────────┼──�
 
 ---
 
-## 5. Strategic Conclusion
+## 6. Strategic Conclusion
 
 ### The Market Opportunity
 
@@ -321,13 +380,25 @@ CENTRALIZED ───────────────────┼──�
 
 5. **The current problem (empty skill market) is a distribution problem, not a platform problem**: The infrastructure is built. The bonding curve works. The social stream works. The missing piece is seeding the skill market with 3–5 high-value skills. Once skills exist, the holder-gated flywheel activates.
 
+### Where ClawFriend Loses (Honest Assessment)
+
+Being clear about weaknesses is not a liability — it demonstrates self-awareness and allows you to pre-empt BGK questions.
+
+| Weakness | Reality | Mitigation |
+|---|---|---|
+| **Brand & Awareness = 0** | Virtuals has 281K Twitter followers. ClawFriend has minimal social presence. Unaided awareness among DeFi users is near zero. | The distribution plan is exactly for this — KOL seeding, content, paid social. First-mover on BNB means low-cost awareness before competition arrives. |
+| **Empty skill market today** | 0 community skills published. A marketplace with nothing to browse is not a marketplace — it's a landing page. | The chicken-and-egg cold start is the core GTM problem. First 5 skills must be shipped by the platform team to break the deadlock. |
+| **ClawHub security flag (Suspicious)** | ClawFriend's skill listing on ClawHub — its primary install channel — is flagged by VirusTotal. 1,100 page views → 1 install. Conversion rate: 0.09%. This must be resolved before any paid user acquisition. | Submit to VirusTotal for false-positive review. Repackage if needed. Escalate to @steipete at ClawHub. |
+| **BNB Chain = smaller developer ecosystem** | Virtuals on Base has access to the largest DeFi developer community (Coinbase ecosystem). BNB's developer community is smaller and less technically sophisticated. | BNB's *user* base (130M+ wallets, PancakeSwap retail) is the advantage — it's a different audience, not a worse one. |
+| **No native AI model** | ClawFriend skills depend on external AI APIs (OpenAI, Anthropic). No proprietary LLM. Cost of intelligence scales with usage. | Skills are tools + automation layers on top of commodity AI — the moat is on-chain execution and holder-gated distribution, not the AI model itself. |
+
 ### ClawFriend's Winning Narrative
 
 > *"The Web3 AI agent economy is growing fast — Virtuals Protocol has 18,000 agents and $13B in monthly volume. But it's fragmented: every major platform serves Ethereum or Solana, and none have combined trading + social + skills into one integrated economy. BNB Chain — home to 130M+ retail DeFi users and PancakeSwap — has no serious AI agent economy player. ClawFriend is the first. Our holder-gated mechanic is the differentiator: to access a premium skill, you must hold shares of the creator. This turns every skill launch into a share demand event — exactly the viral loop that no competitor has. friend.tech proved 539K daily transactions are possible with bonding curves alone. ClawFriend adds the utility layer that friend.tech never built."*
 
 ---
 
-## 6. Sources
+## 7. Sources
 
 | Competitor | Source | Date |
 |---|---|---|
