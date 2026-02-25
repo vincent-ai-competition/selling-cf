@@ -1,0 +1,625 @@
+Implement the following plan:
+
+# Skill Research Revision — Replace Skills 1–4 with BD/Marketing Skills
+
+## Context
+
+Skills 1–4 in `skill-research.md` are generic DeFi/token tools (whale tracking, token sniping, rug detection, yield optimization) that don't fit ClawFriend's actual product:
+- ClawFriend trades **shares** via bonding curve, not complex tokens
+- Target users are **agent owners growing their social presence**, not DeFi traders
+- Skills 1–4 don't use ClawFriend's unique mechanics (social stream, holder-gated, share economy)
+- Skills 5 & 6 are correct — they're platform-native and BD/growth focused
+
+**Goal**: Replace Skills 1–4 with 4 BD/Marketing tools that a 10-year Marketing expert would build specifically for ClawFriend's agent economy. Skills should grow agent owners' shareholder base, optimize their content, and accelerate platform adoption.
+
+---
+
+## The 4 Replacement Skills
+
+### Skill 1: KOL Radar & Outreach Pipeline
+**Frame**: Outbound BD — the #1 growth lever for any social platform
+
+**Target user**: Agent owner with 50–500 followers who knows they need KOL partnerships but does it manually (cold DMs, no tracking, no timing intelligence)
+
+**Problem**: KOL outreach done manually has <2% reply rate because it's untargeted and poorly timed. The right moment to reach out is *when the KOL just posted something in your niche* — but no tool identifies this and drafts an outreach for you in real-time.
+
+**How it works**:
+1. Agent owner configures their content niche (e.g., "AI automation", "BNB DeFi", "Web3 gaming")
+2. Skill monitors X/Twitter accounts with 5K–500K followers posting in that niche (every 15 min via ClawFriend topic monitoring cron)
+3. When a KOL posts something relevant, skill scores them: engagement rate, audience quality, recency
+4. Surfaces "warm window" alert in Social Stream: "KOL @xyz just posted about AI agents — reply rate is 8× higher in first 30 min"
+5. Auto-drafts a personalized reply or collab pitch using the KOL's post content as context
+6. Tracks pipeline: reached out → replied → partnership live → shareholders gained from collab
+
+**Why it fits ClawFriend perfectly**: Every share bought by a new user = price rise for current shareholders = subjectFee earned. Getting a KOL with 50K followers to mention your agent = massive ROI from a single post.
+
+**Demand proof** (to research):
+- Influencer marketing industry: $21.1B globally in 2023 (Statista) — verify citation
+- BuzzSumo (influencer finder): $99–$499/month — verify at buzzsumo.com/pricing
+- Grin.co (influencer CRM): $999+/month — verify at grin.co/pricing
+- No Web3 agent-specific KOL outreach tool exists → first mover
+
+**Visibility**: Holder-gated from day 1 — competitive intelligence (knowing which KOLs are warm) is premium. Free version: monthly digest of top KOLs in your niche. Holder-gated: real-time warm window alerts + auto-drafted pitches.
+
+**Tech**: ClawFriend `/v1/tweets` (topic monitoring cron, every 15 min) + X API for external KOL scanning + ClawFriend Social Stream for alert delivery
+
+**PMF: 7/7 | Creativity: 5/5** — Applying influencer marketing CRM logic to an AI agent social stream economy is novel. Zero competitor does this.
+
+---
+
+### Skill 2: Viral Moment Capture Engine (Trend Hijack)
+**Frame**: Speed-to-post wins the attention game — be first to trending conversations in your niche
+
+**Target user**: Agent owner who wants to grow followers but creates content reactively, not proactively. Misses trending moments because they're not monitoring X 24/7.
+
+**Problem**: In social media, the first 15–30 minutes of a trending topic drive 80% of the conversation. Late posters get scraps. An agent that can auto-detect a relevant trend AND post a quality take within 15 minutes gets 5–10× more impressions than the same post 2 hours later.
+
+**How it works**:
+1. Skill monitors X trending topics + breaking news in agent's configured niche (every 5 min — ClawFriend's fastest cron)
+2. When a relevant trend breaks (threshold: appearing in 500+ tweets in the last 5 min), trigger immediately
+3. Generate 3 tweet draft variations in different formats: hot take, question hook, data-driven angle
+4. Score each draft's predicted engagement using historical performance patterns for this agent
+5. Queue the highest-scoring draft in ClawFriend Social Stream with 1-click approval (or fully auto-post if agent owner configured auto-approve)
+6. Post-thread tracking: "This trend-jacked post drove X new followers in 2 hours vs. your 24h average"
+
+**Why it fits ClawFriend**: More followers → more share demand. Speed is a competitive advantage that other agents can't replicate without this skill. The bonding curve means every new shareholder from a viral post has compound financial value.
+
+**Demand proof**:
+- Buffer (content scheduling): 140K+ customers paying $15–$100/month — verify at buffer.com/pricing
+- Brand24 (trend monitoring): $79–$399/month — verify at brand24.com/pricing
+- Google Trends: 1B+ monthly users (Google data) — proves the behavior of monitoring trends is universal
+- Creator Economy Report 2024 (Hootsuite): posts published during trending moments get 3–7× more reach
+
+**Visibility**: Public first — virality is the distribution. Every time this skill helps an agent go viral, that agent credits the skill publicly → free marketing. Holder-gated tier: fully auto-post (no approval needed) + predictive engagement scoring.
+
+**Tech**: ClawFriend `/v1/tweets?mode=trending` (every 5 min) + X API for external trending topics + ClawFriend `POST /v1/tweets` for publishing
+
+**PMF: 6/7 | Creativity: 4/5** — Trend-jacking tools exist (Hootsuite, Buffer), but not for AI agent social streams with automatic ClawFriend publishing + bonding curve growth context.
+
+---
+
+### Skill 3: Shareholder Churn Predictor & Retention Engine
+**Frame**: THE most financially unique BD skill in the set — impossible to build outside ClawFriend
+
+**Target user**: Agent owner with 10+ shareholders who has seen the price drop when someone sells — and wants to prevent it proactively
+
+**Problem**: In traditional creator economy, a lost follower has zero financial consequence. In ClawFriend's bonding curve, **one shareholder selling = price decline for everyone else**. Agent owners have no early warning system for who is about to sell, and no automated way to re-engage them before it happens.
+
+**How it works**:
+1. Skill tracks each shareholder's behavior: engagement frequency, last interaction date, content reaction history (what topics they engaged with)
+2. Builds churn risk score (0–100) for each shareholder based on: days since last engagement, reduction in portfolio exposure, no-reply to last 3 posts, similar sell patterns from historical data
+3. Flags shareholders with score >70 as "at risk"
+4. Auto-triggers personalized re-engagement strategy: posts content targeted at the at-risk shareholder's known interests, sends exclusive "holder-only" preview content via Social Stream
+5. Weekly report: "3 sell events prevented this week = price preserved at X level for remaining shareholders"
+6. Bonus: "Retention leaderboard" — which content formats have the highest shareholder retention correlation
+
+**Why it fits ClawFriend uniquely**: The bonding curve makes churn FINANCIALLY painful, not just emotionally. This skill converts retention from a nice-to-have into a revenue protection tool. No platform outside ClawFriend needs this.
+
+**Demand proof**:
+- Amplitude (product analytics/retention): $0–$61K/year — proves enterprises pay massively for retention analytics
+- Mixpanel: $25–$833/month — verify at mixpanel.com/pricing
+- Customer retention ROI: Harvard Business Review — increasing retention rate 5% = 25–95% profit increase (widely cited)
+- Unique to ClawFriend: no external tool can provide this because it requires share trade + social engagement correlation data
+
+**Visibility**: Holder-gated — the retention intelligence is competitive (knowing which shareholders are at risk is sensitive information). Free tier: weekly summary. Holder-gated: real-time churn alerts + auto-engagement triggers.
+
+**Tech**: ClawFriend API `/v1/agents/:id/holdings` + BSCScan share trade history + `/v1/tweets` engagement data — zero external API cost, all internal data
+
+**PMF: 7/7 | Creativity: 5/5** — Completely unique to ClawFriend. Cannot be replicated by any competitor or generic tool. Addresses a pain point that is financially quantifiable (price preservation), not just abstract.
+
+---
+
+### Skill 4: Agent Collab Network & Partnership Pipeline
+**Frame**: Cross-promotion is the cheapest user acquisition in social media history — YouTube, TikTok, podcasting all grew via creator collabs
+
+**Target user**: Agent owner who has 100–1000 followers and has hit the organic growth ceiling. Needs external audience exposure but doesn't know which agents to approach or how to structure the partnership.
+
+**Problem**: ClawFriend agents grow in silos. Agent owners don't know which other agents have complementary audiences (not competing, but overlapping interests). Even if they identify one, they don't know the right collaboration format or how to track if it actually drove new shareholders.
+
+**How it works**:
+1. Analyzes the ClawFriend agent social graph: who follows who, who engages with who, what content topics overlap
+2. Scores "partnership potential" for every agent pair: audience overlap score, content affinity score, estimated new shareholders from a collaboration (based on partner's audience size × engagement rate × estimated conversion)
+3. Shows top 10 "partnership recommendations" ranked by estimated shareholder acquisition
+4. Proposes collaboration formats: "Agent A posts a thread, Agent B quote-tweets with their take → both audiences see both agents" or "Joint AMA: Agent A hosts, Agent B is the guest → cross-audience exposure"
+5. Optionally: one-click collaboration proposal sent via ClawFriend Social Stream (posts in both agents' streams)
+6. Tracks partnership ROI: new shareholders attributed to each collab within 7 days post-collab
+
+**Why it fits ClawFriend**: When two agents collaborate, the incentive is unique: "I grow your shareholder base, you grow mine → both our share prices rise → both earn more subjectFee." It's a positive-sum game that doesn't exist in traditional creator economies.
+
+**Demand proof**:
+- Collabstr (creator collab marketplace): $49–$199/month — verify at collabstr.com/pricing
+- YouTube creator data: 30–50% of subscriber growth attributed to collaborations (Creator Economy Report 2024)
+- Instagram "Collab" post feature: built natively (proves the mechanic is proven)
+- TikTok Duet/Stitch: built natively (same proof)
+- No Web3 agent collaboration tool exists → zero competition
+
+**Visibility**: Public first — collaboration discovery benefits the entire platform ecosystem, not just individual agents. More partnerships = more cross-audience exposure = more overall platform users. Holder-gated tier: partnership ROI analytics + automated outreach.
+
+**Tech**: ClawFriend API `/v1/agents` (social graph) + `/v1/tweets` (engagement data) + `/v1/agents/:id/holdings` (shareholder overlap analysis) — all internal data, zero external API cost
+
+**PMF: 6/7 | Creativity: 5/5** — Cross-promotion mechanics are proven across every social platform. Applying it to an agent economy with shared financial upside (both agents' share prices rise from a successful collab) is genuinely novel.
+
+---
+
+## Updated Scoring Summary (Full 6 Skills)
+
+| # | Skill Name | PMF /7 | Creativity /5 | Visibility /5 | Research /5 | Feasibility /3 | **Total /25** |
+|---|---|---|---|---|---|---|---|
+| 1 | KOL Radar & Outreach Pipeline | 7 | 5 | 5 | 4 | 3 | **24** |
+| 2 | Viral Moment Capture Engine | 6 | 4 | 5 | 4 | 3 | **22** |
+| 3 | Shareholder Churn Predictor & Retention | 7 | 5 | 4 | 4 | 3 | **23** |
+| 4 | Agent Collab Network & Partnership Pipeline | 6 | 5 | 5 | 4 | 3 | **23** |
+| 5 | Smart Wallet Copy-Trade Alerts (keep) | 7 | 5 | 5 | 5 | 2 | **24** |
+| 6 | Agent Growth Analytics (keep) | 6 | 5 | 5 | 4 | 3 | **23** |
+
+**Average: 23.2/25** — up from the previous 22.3/25
+
+---
+
+## What Changes in skill-research.md
+
+**Remove**: Skills 1, 2, 3, 4 (BNB Whale Alert, Token Sniper, Rug Pull Detector, Yield Optimizer)
+**Keep**: Skills 5, 6 (Smart Wallet Copy-Trade, Agent Growth Analytics) — renumber to 5 and 6
+**Add**: 4 new skills above as Skills 1–4
+
+**Update**: Scoring summary table, design rationale section, and strategic conclusion section
+
+---
+
+## Files to Edit
+
+- **Primary**: `/Users/vuongluu/Documents/jobs/lab3/vincent-ai-biz/selling-cf/skill-research.md`
+  - Replace Skills 1–4 entirely
+  - Update scoring summary table
+  - Update design rationale
+  - Update strategic conclusion
+
+- **Secondary**: `/Users/vuongluu/Documents/jobs/lab3/vincent-ai-biz/selling-cf/data/skill-demand-data.md`
+  - Replace data sections for Skills 1–4 with new demand data for the 4 BD/Marketing skills
+
+---
+
+## Demand Data to Verify Before Writing
+
+For each new skill, I need to verify 2+ real data points:
+
+| Skill | Data to verify | Source |
+|---|---|---|
+| KOL Radar | BuzzSumo pricing: $99–$499/mo | buzzsumo.com/pricing |
+| KOL Radar | Grin.co influencer CRM pricing | grin.co/pricing |
+| Viral Moment | Buffer pricing + user count | buffer.com/pricing |
+| Viral Moment | Brand24 pricing | brand24.com/pricing |
+| Churn Predictor | Mixpanel pricing | mixpanel.com/pricing |
+| Churn Predictor | HBR retention ROI stat | widely cited stat |
+| Collab Network | Collabstr pricing | collabstr.com/pricing |
+| Collab Network | YouTube collab growth % | Creator Economy Report |
+
+---
+
+## Previous Plan Context (COMPLETED — not relevant to this task)
+
+The previous plan covered creating README.md, overview.md, competitive-landscape.md, distribution-plan.md, data/ files, and ai-showcase/prompts.md. All completed.
+
+**File**: `/Users/vuongluu/Documents/jobs/lab3/vincent-ai-biz/selling-cf/README.md`
+
+**Persona**: Senior BD, 10 years experience, 5 years Web3/AI — strategic, data-driven, opinionated
+
+**Purpose**: Master playbook for winning the competition. Covers strategy, framework, and execution for all 4 deliverables. Should read like a document written by someone who has launched Web3 products before — not a student assignment plan.
+
+**Tone**: Confident, precise, builder-mindset. Uses frameworks. Calls out common traps.
+
+**Content outline**:
+1. TL;DR strategy (why we win)
+2. Part 1 — Competitive Landscape: how to find, analyze, conclude
+3. Part 2 — Skill Research: PMF framework, demand proof method, visibility strategy
+4. Part 3 — Distribution Plan: channel selection logic, $10K allocation, unit economics
+5. Part 4 — Presentation & Q&A: structure, BGK question prep, how to use technical background as advantage
+6. 3-day timeline
+7. Golden rules / traps to avoid
+
+---
+## PREVIOUS TASK: Create overview.md
+
+**File to create**: `/Users/vuongluu/Documents/jobs/lab3/vincent-ai-biz/selling-cf/overview.md`
+
+**Content structure** (synthesized from: guidebook, claw-whales-skill codebase, docs.clawfriend.ai, clawfriend.ai homepage):
+
+```
+# ClawFriend Platform Overview
+
+## 1. What is ClawFriend?
+## 2. The 4 Core Modules
+## 3. Key Mechanics
+## 4. Tech Stack
+## 5. API Reference Summary
+## 6. Target Users
+## 7. Business Model
+## 8. Competitive Advantages (for competition use)
+## 9. Current State & Gaps
+## 10. Distribution Channels
+## 11. Live URLs
+```
+
+**Key facts to include in overview.md:**
+
+### Platform Identity
+- **Tagline**: "Economy Layer for OpenClaw Agents"
+- **Chain**: BNB Smart Chain (Chain ID: 56)
+- **Stage**: Deployed, live, skill marketplace empty → needs GTM
+
+### 4 Core Modules
+1. **Shares Trading** — Bonding curve (price↑ as supply↑), 5% protocol fee + 5% subject fee per trade
+2. **Skill Market** — Browse/publish/download skills; Public (free) vs Private/holder-gated (shareholders only)
+3. **Social Stream** — Agents tweet/like/reply/follow; feed modes: new / trending / for_you; semantic search
+4. **Infrastructure** — OpenClaw framework, cron jobs, heartbeat monitoring
+
+### Holder-Gated Mechanic (THE key differentiator)
+- Private skills require holding ≥1 share of the skill creator agent
+- Creates viral loop: users buy shares → access skills → demand drives price up → creator earns subjectFee on every trade
+- Owner must hold ≥1 share of their own agent at all times
+
+### Bonding Curve Economics
+- Price = f(supply) — increases with each share bought
+- Fees: protocolFee (5%) + subjectFee (5%) on every buy/sell
+- First share: only the agent themselves can buy (launch() function)
+- Can never sell the last share (supply ≥ 1 always)
+
+### Skill Architecture (from claw-whales-skill v1.1.0)
+- Skills installed at: `~/.openclaw/workspace/skills/<skill-name>/`
+- Core skill: clawfriend (v1.1.0) — social automation + share trading
+- Community skills: `clawfriend-community-skills/` (currently empty → competition opportunity)
+- Distribution: ClawHub CLI (`npx clawhub@latest install clawfriend`) + Cloudflare R2
+- Build system: placeholder-based `{{API_DOMAIN}}`, `{{UI_DOMAIN}}`, `{{CLAW_FRIEND_ADDRESS}}`
+
+### Agent Automation Capabilities (from usage-guide)
+6 built-in automation scenarios:
+1. Auto-engage (every 5 min) — like + comment on trending tweets
+2. Share trading monitor (every 10 min) — track prices, execute trades
+3. Content posting (every 2 hrs) — original tweets, market insights
+4. Topic monitoring (every 15 min) — keyword tracking, trend spotting
+5. Profile optimization — monthly bio updates
+6. Multi-strategy combination — all of the above running together
+
+### API Architecture
+- Base: `https://api.clawfriend.ai`
+- Auth: `X-API-Key` header (agents) / JWT via Twitter OAuth (owners)
+- Key endpoint groups: /v1/agents, /v1/tweets, /v1/share, /v1/notifications, /v1/skill-version
+- Filtering params on /v1/agents: sort by SHARE_PRICE, VOL, HOLDING, FOLLOWERS_COUNT etc.
+
+### Target Users
+1. **Agent Owners** — Deploy AI agents on BNB, grow share value via content + skills
+2. **AI Agents** — Autonomous economic actors; execute cron jobs, trade, post
+3. **Traders/Investors** — Buy shares of promising agents, hold for price appreciation
+4. **Skill Developers** — Publish skills (public free or holder-gated monetized)
+
+### Business Model
+- Primary: 5% protocol fee on all share trades (on-chain, automatic)
+- Secondary: 5% subject fee to agent creators on every trade of their shares
+- Future: Skill marketplace fees, premium infrastructure
+
+### Live URLs
+- App: https://clawfriend.ai
+- API: https://api.clawfriend.ai
+- Docs: https://docs.clawfriend.ai
+- Twitter: @clawfriend_ai
+- Email: team@clawfriend.ai
+- Dev skill URL: https://storage.whales-market.site/clawfriend.zip
+
+### Current Platform State (verified)
+- Share prices on trending agents: $0.012 – $0.163 range
+- Featured agents follower count: 80–117 followers
+- Core skill version: 1.1.0
+- Community skills: 0 (empty — this is THE problem to solve)
+
+---
+
+## Context
+Vincent (Lưu Quang Vượng, Fullstack dev) is competing in a 3-day internal business competition at Lab3.
+- **Product**: ClawFriend — Web3 AI Agent Platform (BNB Smart Chain) with Skill Market
+- **Day**: Day 1 of 3 (Tuesday)
+- **Advantage**: Built parts of the platform → knows tech deeply → can speak to differentiators authentically
+- **Goal**: Top 3 out of 18 contestants (mostly other devs without biz background)
+
+The output must be real research with verified data. BGK will penalize AI-hallucinated numbers.
+
+---
+
+## Deliverable Strategy
+
+### D1: Competitive Landscape (25%) — Day 1
+**Approach**: Deep analysis of 5–7 competitors (quality > quantity)
+
+**Tier 1 — Direct Web3 Skill/Agent Marketplaces:**
+| Competitor | What to look for |
+|---|---|
+| Virtuals Protocol | Agent tokenization + skill layer, user count, GMV, chain |
+| ai16z/ELIZA | GitHub stars, framework adoption, skills/plugins ecosystem |
+| ClawHub (OpenClaw) | 5,700+ skills mentioned in guidebook — size, pricing, community |
+| SingularityNET | Marketplace maturity, pricing model, user base |
+| Fetch.ai | Agent marketplace, DeltaV skills store |
+
+**Tier 2 — Adjacent/Indirect:**
+| Competitor | Why relevant |
+|---|---|
+| friend.tech | Bonding curve social — same mechanic as ClawFriend shares |
+| Gaia (Gaianet.ai) | AI agent node marketplace |
+| Bittensor / SN13 | Decentralized AI skills trading |
+
+**Data to find per competitor** (from real sources, not AI):
+- GitHub stars (github.com)
+- Twitter/X follower count (real signal)
+- On-chain TX count (DeFiLlama, BSCScan, explorer)
+- Pricing model (from their website)
+- User count (their own blog posts, press releases)
+
+**Conclusion framework:**
+- "Market is nascent/growing — main players focus on X chain, not BNB"
+- "Gap: No platform combines trading + social + skill market in one on BNB ecosystem"
+- "ClawFriend advantage: holder-gated mechanic creates viral loop (hold shares → access skills → price goes up)"
+
+**Critical files to produce:**
+- `competitive-landscape.md` with table + per-competitor analysis + strategic conclusion
+
+---
+
+### D2: Skill Research (25%) — skill-research.md
+
+**File**: `/Users/vuongluu/Documents/jobs/lab3/vincent-ai-biz/selling-cf/skill-research.md`
+
+**Scoring strategy**: 6 skills, each scored on PMF (7) + Creativity (5) + Visibility (5) + Research Quality (5) + Technical Feasibility (3) = 25 pts. Deliverable score = average across all 6 skills → 25 pts total.
+
+**Goal per skill**: PMF ≥ 6/7, Creativity ≥ 4/5. Never sacrifice PMF for creativity.
+
+---
+
+#### Section structure of skill-research.md
+Each skill written as:
+```
+## Skill N: [Name]
+**Target user** | **Problem** | **Current alternative** (with price)
+**How the skill works** — technical description
+**Demand evidence** — 2+ sourced data points
+**Visibility & Monetization** — public/private logic + comparison
+**Technical feasibility** — APIs + ClawFriend infra used
+```
+
+---
+
+#### 6 Skills to research and write
+
+**Skill 1 — BNB Whale Alert & Copy Signal**
+- **Target**: BNB DeFi retail trader, $5K–$50K portfolio, trades 3–5x/week on PancakeSwap
+- **Pain**: Manually watching 10 whale wallets on BSCScan — 2h+/day, misses moves in real-time
+- **Alternative**: Nansen (~$150/mo), Arkham (free but ETH-focused, no BNB), Whale Alert (generic, no copy-trade)
+- **How it works**: Monitor top 200 BNB wallets by PnL (BSCScan API), alert when wallet moves >$50K, show token + amount + destination. Optional: auto-copy the trade via ClawFriend agent.
+- **Demand proof to verify** (search + scrape):
+  - @whale_alert Twitter followers (known ~1.2M — verify)
+  - "whale tracker BNB" / "BSC whale" Google search volume via Ubersuggest
+  - r/bnbchain post count mentioning "whale" (search Reddit)
+  - Nansen pricing page ($150/mo — verify at nansen.ai/pricing)
+- **Visibility**: Phase 1 — Public (free, build audience + reputation). Phase 2 — Holder-gated for real-time alerts + auto-copy (premium users must hold ≥1 share)
+- **Tech**: BSCScan API (free tier) + WebSocket subscription for new transactions + ClawFriend `/v1/share` for auto-trade execution
+- **Creativity score**: Medium (whale trackers exist) → uniqueness angle: *"first BNB-native whale tracker that auto-copies trades via your agent"*
+
+---
+
+**Skill 2 — PancakeSwap New Token Sniper (with AI Risk Filter)**
+- **Target**: PancakeSwap early-entry traders, $500–$5K per position, looking for 10x within 24h of launch
+- **Pain**: New tokens launch every 5 minutes on BSC — manually refreshing DEXTools/PooCoin constantly; miss the first 30 minutes which have the best risk/reward
+- **Alternative**: DEXTools (paid Pro plan $99/mo), PooCoin.app (free but no AI filter, no alerts), DexScreener (free but noise-heavy)
+- **How it works**: Monitor PancakeSwap Factory contract for new pair creation events; for each new token run 5-point risk check (LP lock %, holder concentration, contract verified, honeypot test via honeypot.is API, dev wallet history); alert only on tokens passing ≥4/5 checks. Alert via ClawFriend social stream within 60 seconds of launch.
+- **Demand proof to verify**:
+  - DEXTools Twitter followers + pricing (verify at dextools.io/app/pricing)
+  - PooCoin.app monthly visitors (SimilarWeb estimate or Alexa rank)
+  - "new token BSC" / "pancakeswap launch" Google Trends screenshot
+  - r/CryptoMoonShots post volume (subreddit has 2.3M members — verify)
+- **Visibility**: Holder-gated from day 1 — this is high-alpha information; public version = delayed 10-min, private (holder-gated) = real-time + AI risk score
+- **Tech**: BSCScan WebSocket (pair creation events) + honeypot.is API + ClawFriend social stream for alert delivery
+- **Creativity score**: High — AI risk filter at launch moment is novel; no existing free tool does all 5 checks in <60 seconds
+
+---
+
+**Skill 3 — AI-Powered BSC Rug Pull Detector**
+- **Target**: Any BSC token buyer (wide market — from $100 retail to $10K swing traders), especially new tokens
+- **Pain**: Lost money on rug pulls — there are 100+ rug pulls per week on BSC. Manual checking (TokenSniffer, RugDoc) takes 5 minutes per token; most traders skip it and get rugged
+- **Alternative**: TokenSniffer (free but slow, ETH-focused), RugDoc (manual review), GoPlus Security API (exists but no UX layer)
+- **How it works**: Paste a BSC contract address → skill runs 8-point AI analysis: (1) contract verified, (2) mint function, (3) blacklist function, (4) max transaction limit, (5) LP locked, (6) ownership renounced, (7) holder top-10 concentration, (8) dev wallet age. Returns SAFE / RISKY / DANGER verdict in 3 seconds.
+- **Demand proof to verify**:
+  - TokenSniffer monthly usage stats (check their website/Twitter)
+  - "rug pull BSC" / "how to check token BSC" Google search volume
+  - r/CryptoMoonShots rug pull complaint posts (subreddit 2.3M members)
+  - GoPlus Security API usage stats (their blog/Twitter)
+  - BSC token rug count per week (check DeFiLlama hacks or rekt.news)
+- **Visibility**: Public (free, builds awareness + trust — becomes ClawFriend's brand) → Phase 2: holder-gated for premium version (batch scan, wallet history, confidence score)
+- **Tech**: GoPlus Security API (free tier) + BSCScan contract read + on-chain analysis via ethers.js
+- **Creativity score**: High — combining 8 checks into one AI verdict with ClawFriend delivery is novel vs existing manual tools
+
+---
+
+**Skill 4 — DeFi Yield Optimizer (BNB Chain)**
+- **Target**: BNB DeFi LP providers with $10K+ across Venus, PancakeSwap, Alpaca Finance — rebalance at least monthly
+- **Pain**: APY changes constantly across 5+ protocols; spending 1h/week manually checking Yield Watch, DeFiLlama, each protocol dashboard. Missing 2-5% APY delta = real money left on table
+- **Alternative**: Yield Watch ($15/mo), DeFiLlama Pro (free but no actionable alerts), Beefy Finance (auto-compound but limited control), Yearn (Ethereum only)
+- **How it works**: Connect BNB wallet → skill scans current LP positions → queries DeFiLlama API for current APYs across all BNB DeFi protocols → calculates optimal reallocation to maximize yield → shows step-by-step migration plan → agent executes with 1 approval from owner
+- **Demand proof to verify**:
+  - DeFiLlama total BNB chain TVL (verify at defillama.com — $X billion = large user base)
+  - Yield Watch pricing + approximate user count (their website/Twitter)
+  - "yield optimizer BNB" / "best APY BSC" Google search volume
+  - Beefy Finance TVL on BNB (defillama.com/protocol/beefy-finance)
+- **Visibility**: Public for read-only view (APY comparison dashboard — drives awareness). Holder-gated for auto-execute rebalancing (agents execute on-chain actions only for shareholders)
+- **Tech**: DeFiLlama API (free, public) + PancakeSwap/Venus ABIs via ethers.js + ClawFriend agent execution
+- **Creativity score**: Medium — yield optimizers exist; unique angle is *agent-executed* rebalancing via ClawFriend agent on BNB, not just a dashboard
+
+---
+
+**Skill 5 — Smart Wallet Copy-Trade Alerts (On-Chain Alpha)**
+- **Target**: Retail crypto traders ($1K–$20K portfolio) who follow CT for alpha but constantly FOMO into bad calls from Twitter KOLs with undisclosed paid promotions
+- **Pain**: Twitter signal groups are 90% paid promotion; by the time a KOL tweets an entry, they've already bought and you're buying their exit. No way to verify if a KOL's actual on-chain wallet matches their Twitter calls.
+- **Alternative**: Zapper.fi follow wallet (free but generic, no alerts), Nansen Smart Money (ETH, $150/mo), 3Commas signals ($30/mo — no on-chain verification)
+- **How it works**: Maintain a curated list of top 50 BSC wallets ranked by *actual verified on-chain PnL* (last 90 days, minimum 20 trades). When any wallet opens a position >$10K, alert via ClawFriend social stream with: wallet address, token bought, position size, wallet's 90-day ROI track record.
+- **Demand proof to verify**:
+  - @lookonchain Twitter followers (known ~450K — verify; they track whale/smart money moves)
+  - "copy trading crypto" / "smart money BSC" Google search volume
+  - 3Commas/Zignaly subscription pricing + user estimates
+  - On-chain: count of BSC wallets with >$50K balance and >20 trades/month (BSCScan data or Dune query)
+- **Visibility**: Holder-gated from day 1 — premium alpha intelligence. Free version = weekly digest. Holder-gated = real-time alerts + wallet watchlist
+- **Tech**: BSCScan transaction history API + Dune Analytics for PnL calculation + ClawFriend social stream for delivery
+- **Creativity score**: High — the key differentiator is *verified on-chain PnL ranking*, not Twitter follower count. No existing free tool ranks BSC wallets by actual ROI with real-time alerts.
+
+---
+
+**Skill 6 — Agent Growth Analytics (ClawFriend Meta-Skill)**
+- **Target**: ClawFriend agent owners who want to grow their shareholder base and social following — the platform's most important power users
+- **Pain**: No visibility into what drives share purchases vs. what just drives Twitter followers. Agent owners post content blindly, don't know which tweet converted a shareholder, which skill drove the most installs, or when their share price is undervalued.
+- **Alternative**: Generic Twitter analytics (no on-chain data), no BSC-specific agent analytics tools exist
+- **How it works**: Aggregates ClawFriend API data + BSCScan share trade history → dashboard showing: (1) share price vs. tweet engagement correlation, (2) which skills attracted the most new shareholders, (3) shareholder retention rate, (4) optimal posting times for share conversion, (5) comparative rank vs. other agents by growth rate
+- **Demand proof to verify**:
+  - ClawFriend agent count (verify from clawfriend.ai — trending agents page)
+  - Agent owner count active in last 7 days (check platform activity)
+  - Analogy: Social Blade users (influencer analytics) — >10M users proves content creator analytics demand
+  - Twitter Analytics product (100M+ users) — proves creators want their own analytics
+- **Visibility**: Public (all agent owners benefit, drives platform retention) → no holder-gated needed; this is a platform retention tool
+- **Tech**: ClawFriend API (/v1/agents, /v1/tweets, /v1/share) + BSCScan trade history — uses *internal* platform data, no external API cost
+- **Creativity score**: Highest — completely unique to ClawFriend, no external competitor, solves the exact "how do I grow my agent" question every agent owner has. Shows deep platform understanding.
+
+---
+
+#### Execution approach for writing skill-research.md
+1. Run demand research in parallel (WebSearch for each skill's key data points)
+2. Verify 2 sources per skill minimum — Twitter followers, pricing pages, Reddit posts, Google Trends
+3. Write each skill in standard template — no shallow entries
+4. Add a summary table at top of file: 6 skills × 5 criteria = scores preview
+
+#### Key differentiation strategy across 6 skills
+- Skills 1+2: High PMF — massive existing demand (whale tracking, new token sniping)
+- Skills 3+5: High creativity — AI judgment layer + on-chain verification (rug detector, smart wallet ranking)
+- Skills 4+6: Platform depth — technical understanding of ClawFriend infra (yield optimizer via agent, meta-analytics)
+- Visibility mix: 2 public-first (1, 3), 3 holder-gated-first (2, 5, 6 partially), 1 hybrid (4)
+
+---
+
+### D3: Distribution Plan (40%) — Day 2 afternoon + Day 3 morning
+**This is the most important deliverable. Must be intern-executable.**
+
+**$10K Budget Allocation:**
+| Channel | Budget | Why | Metric |
+|---|---|---|---|
+| Twitter/X Ads | $4,000 (40%) | Web3 users live on CT | CPC $0.40–0.60, target: 8,000 clicks, 3% CVR = 240 signups |
+| KOL/Influencer | $3,500 (35%) | Trust-based, CT culture | 2-3 mid-tier KOLs (50K-200K followers), each post = 500-2K impressions that matter |
+| Airdrop/Incentive | $2,000 (20%) | Web3 user acquisition mechanic | 200 users × $10 in shares/credits = first active cohort |
+| Tools/Analytics | $500 (5%) | Research + tracking | Dune dashboard, UTM tracking |
+
+**Organic channels ($0):**
+1. **Mirror.xyz Technical Blog** — 8 posts/month, each = tutorial using one skill
+   - Target: DeFi power users, developers on BNB
+   - Distribution: r/bnbchain, r/defi, BNB Telegram groups
+   - Metric: Page views, UTM signups per post
+
+2. **GitHub + Developer Community** — Open skill examples, README with "1-click install to ClawFriend"
+   - Target: Developers building AI agents
+   - Metric: GitHub stars, forks, inbound signups from README CTA
+
+3. **Crypto Twitter Organic** — Daily skill demo threads, "AI agent did X on-chain" content
+   - Target: CT audience following @DeFiLlama, @Nansen, @whale_alert
+   - Metric: Impressions, follower growth, profile visits to platform
+
+**Partnership Plan (bonus points):**
+1. **OpenClaw/ClawHub** — They have 5,700+ skills + community. Propose: integrate "import to ClawFriend" button
+2. **BNB Chain Official** — Apply for ecosystem grant + feature on bnbchain.org
+3. **Nansen/Arkham** — "Free tier via ClawFriend skill" — drive users who can't afford $100/mo
+
+**Unit Economics to include:**
+- CAC (paid): $10K / 240 paid signups = ~$41 CAC from paid
+- CAC (blended with organic 500 users target): $10K / 740 = ~$13.5 CAC
+- Target Month 1: 500–800 signups total (paid + organic)
+
+**Critical files to produce:**
+- `distribution-plan.md` with full channel breakdown, timeline by week, metrics per channel
+
+---
+
+## GitHub Repo Structure
+```
+clawfriend-biz-research/
+├── README.md                  (intro + links to all deliverables + web presentation link)
+├── competitive-landscape.md   (D1)
+├── skill-research.md          (D2)
+├── distribution-plan.md       (D3)
+├── ai-showcase/
+│   └── prompts.md             (screenshots + prompts used)
+└── data/
+    ├── competitor-data.md     (raw data, sources)
+    └── skill-demand-data.md   (search volumes, sources)
+```
+
+---
+
+## Web Presentation (Gemini Canvas)
+- 8–10 slides, React + Tailwind + lucide-react
+- Use the Gemini Canvas prompt from guidebook + add slide content
+- Sections: Intro → Competitive Landscape → Skill Research → Distribution Plan → AI Showcase → Q&A Prep
+
+**Key slide talking points for BGK Q&A:**
+- "Why ClawFriend wins": Holder-gated mechanic = viral loop (hold shares → access → price appreciation)
+- "Why BNB Chain": Large retail DeFi user base, lower fees, PancakeSwap ecosystem
+- "Distribution in Month 1": $10K → 740 users, show unit economics clearly
+
+---
+
+## Day-by-Day Timeline
+
+### Day 1 (Today — Tuesday)
+**Morning:**
+- [ ] Set up GitHub repo with file structure
+- [ ] Research 5–7 competitors (use WebSearch for real data)
+- [ ] Record all data with sources in `data/competitor-data.md`
+
+**Afternoon:**
+- [ ] Write `competitive-landscape.md` with analysis + conclusions
+- [ ] Start brainstorming 5–10 skills
+
+**End of Day:**
+- Competitive landscape DONE + pushed to GitHub
+- Skills list drafted (not yet researched)
+
+### Day 2 (Wednesday)
+**Morning:**
+- [ ] Research demand proof for each skill (Google Trends, Reddit, Twitter)
+- [ ] Write `skill-research.md`
+
+**Afternoon:**
+- [ ] Write `distribution-plan.md` with unit economics
+- [ ] Draft partnership plan
+
+**End of Day:**
+- Skill Research DONE
+- Distribution Plan draft DONE
+
+### Day 3 (Thursday — Presentation Day)
+**Morning:**
+- [ ] Review + polish all 3 deliverables
+- [ ] Create Gemini Canvas web presentation
+- [ ] Push everything to GitHub
+- [ ] Prep Q&A answers
+
+**Afternoon:**
+- [ ] Present to BGK
+
+---
+
+## Verification Plan
+- All competitor data: verify against GitHub (stars), Twitter (followers), official websites (user counts from blog posts)
+- All skill demand data: verify against Google Trends (screenshot), existing tool pricing (from real websites)
+- Distribution metrics: calculate from real CPCs (check Meta Ads/Twitter Ads public benchmarks for Web3)
+- Unit economics: use formulas, not AI estimates
+
+---
+
+## Execution Notes
+- Vincent knows the product tech deeply → use this in Q&A ("as the developer who built X module...")
+- The holder-gated mechanic is the most unique differentiator — make sure it appears in all 3 deliverables
+- Distribution Plan should reference BNB Chain-specific communities (not generic "crypto twitter")
+- For AI Showcase: document prompts used throughout → shows good AI workflow
+
+
+If you need specific details from before exiting plan mode (like exact code snippets, error messages, or content you generated), read the full transcript at: /Users/vuongluu/.REDACTED.jsonl
