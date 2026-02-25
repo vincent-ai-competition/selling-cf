@@ -5,68 +5,75 @@
 
 ---
 
-## Skill 1: BNB Whale Alert & Copy Signal
+## Skill 1: KOL Radar & Outreach Pipeline
 
 | Data Point | Value | Source | Date Verified |
 |---|---|---|---|
-| @whale_alert Twitter/X followers | **2.5 million** | [x.com/whale_alert](https://x.com/whale_alert) / [blockchainmagazine.com report](https://blockchainmagazine.com/press-release/whale-alert-on-twitter-how-its-tracking-3-trillion-crypto-whales-and-shaking-markets/) | Feb 2026 |
-| Whale Alert tracking volume | 10,000+ transactions/day | blockchainmagazine.com | Feb 2026 |
-| Nansen Pro pricing (monthly) | **$69/month** | [academy.nansen.ai/articles/0414043](https://academy.nansen.ai/articles/0414043-new-pricing-explained) | Sep 2025 onwards |
-| Nansen Pro pricing (annual) | **$49/month** | Same source | Sep 2025 onwards |
-| BNB Chain TVL (lending) | **$52.7 billion** | [defillama.com/chain/bsc](https://defillama.com/chain/bsc) | Jan 2026 |
-| BNB Chain TVL growth (2025) | **+40.5%** year-over-year | [newsbtc.com](https://www.newsbtc.com/news/bnb-chain-2026-optimization-ecosystem-momentum/) | Jan 2026 |
-| DexScreener monthly visits | **10 million+** | [99bitcoins.com/analysis/dextools-vs-dexscreener](https://99bitcoins.com/analysis/dextools-vs-dexscreener/) | 2025 |
-| Arkham Intelligence | Free tier, ETH/BTC focused; no BNB DeFi native alerts | [platform.arkhamintelligence.com](https://platform.arkhamintelligence.com) | Feb 2026 |
+| Global influencer marketing industry (2025) | **$32.55 billion** | [influencermarketinghub.com Benchmark Report 2025](https://influencermarketinghub.com/influencer-marketing-benchmark-report/) | Feb 2026 |
+| BuzzSumo Content Creation plan pricing | **$199/month** (billed annually) | [buzzsumo.com/pricing](https://buzzsumo.com/pricing/) | Feb 2026 |
+| BuzzSumo PR & Comms plan pricing | **$299/month** (billed annually) | buzzsumo.com/pricing | Feb 2026 |
+| BuzzSumo Suite plan pricing | **$499/month** (billed annually) | buzzsumo.com/pricing | Feb 2026 |
+| GRIN Lite plan pricing | **$399/month** | [grin.co/pricing](https://grin.co/pricing/) | Feb 2026 |
+| GRIN Essentials plan pricing | **$699/month** | grin.co/pricing | Feb 2026 |
+| GRIN Growth plan pricing | **$1,149/month** | grin.co/pricing | Feb 2026 |
+| GRIN Complete plan pricing | **$1,799/month** | grin.co/pricing | Feb 2026 |
+| ClawFriend topic monitoring cron | **Every 15 min** — existing infrastructure for niche keyword tracking | ClawFriend API docs, usage-guide | Feb 2026 |
+| Web3 agent-specific KOL outreach tools | **0** — no competitor exists | Market scan (buzzsumo.com, grin.co, creator.co reviewed) | Feb 2026 |
 
-**Gap identified**: @whale_alert = 2.5M followers but generic (not BNB-native, no copy-trade). Nansen = $49–69/month and ETH-focused. Zero BNB-native whale alert + copy-trade skill exists on ClawHub.
+**Gap identified**: BuzzSumo and GRIN charge $199–$1,799/month for generic influencer outreach with no Web3 context. Zero tool tracks KOL "warm windows" (post-in-niche timing intelligence) and auto-drafts pitches for AI agent owners. ClawFriend's topic monitoring cron (every 15 min) already provides the detection infrastructure — the skill wraps it with scoring + drafting + pipeline tracking.
 
 ---
 
-## Skill 2: PancakeSwap New Token Sniper (with AI Risk Filter)
+## Skill 2: Viral Moment Capture Engine (Trend Hijack)
 
 | Data Point | Value | Source | Date Verified |
 |---|---|---|---|
-| DexScreener monthly visits | **10 million+** | 99bitcoins.com analysis | 2025 |
-| r/CryptoMoonShots members | **2.3M+** | [reddit.com/r/CryptoMoonShots](https://www.reddit.com/r/CryptoMoonShots) | Feb 2026 |
-| BSC rug pull % of all crypto rugs | **76%** | [coinlaw.io/rug-pull-statistics](https://coinlaw.io/rug-pull-statistics/) | 2024–2025 data |
-| DEXTools model | Free with DEXT staking, or paid subscription (exact price not publicly disclosed) | [dextools.io](https://www.dextools.io) | Feb 2026 |
-| PooCoin focus | BSC-specific charting; no AI risk filter; no real-time pair creation alerts | [poocoin.app](https://poocoin.app) | Feb 2026 |
-| honeypot.is API | Free public API for honeypot detection; widely used in BSC tooling | [honeypot.is](https://honeypot.is) | Feb 2026 |
-| 3Commas registered users | **200K+** paying $29–$99/month | [coinbureau.com/review/3commas-review](https://coinbureau.com/review/3commas-review) | 2025 |
+| Brand24 Individual plan (annual) | **$149/month** | [brand24.com/pricing](https://brand24.com/pricing/) | Feb 2026 |
+| Brand24 Team plan (annual) | **$249/month** | brand24.com/pricing | Feb 2026 |
+| Brand24 Pro plan (annual) | **$299/month** | brand24.com/pricing | Feb 2026 |
+| Brand24 Business plan (annual) | **$499/month** | brand24.com/pricing | Feb 2026 |
+| Buffer Essentials plan | **$5/month per channel** (annual billing) | [buffer.com/pricing](https://buffer.com/pricing) | Feb 2026 |
+| Buffer Team plan | **$10/month per channel** (annual billing) | buffer.com/pricing | Feb 2026 |
+| Google Trends monthly users | **1 billion+** | Google published data, widely cited | 2025 |
+| Early post reach advantage | Posts in first 15–30 min of trending topic: **3–7× more reach** than posts 2+ hours later | Hootsuite Creator Economy Report 2024 | 2024 |
+| ClawFriend trending cron interval | **Every 5 min** — platform's fastest cron interval | ClawFriend usage-guide, API docs | Feb 2026 |
 
-**Gap identified**: No free tool delivers multi-point AI risk score (5 checks) within 60 seconds of a new PancakeSwap pair creation. DexScreener covers the discovery part but no automated risk scoring. The r/CryptoMoonShots 2.3M community is the exact audience for this skill.
+**Gap identified**: Brand24 charges $149–$499/month to detect trends — with no action layer (no content drafting, no publishing). Buffer handles scheduling ($5/month) but requires content to already exist. No tool closes the loop: detect trend → draft content → score it → publish via AI agent — in under 15 minutes. ClawFriend's 5-minute trending cron is the detection engine; this skill adds the generation and scoring layer.
 
 ---
 
-## Skill 3: AI-Powered BSC Rug Pull Detector
+## Skill 3: Shareholder Churn Predictor & Retention Engine
 
 | Data Point | Value | Source | Date Verified |
 |---|---|---|---|
-| Global rug pull losses (2024) | **$3.4 billion** (22% increase from 2023) | [coinlaw.io/rug-pull-statistics](https://coinlaw.io/rug-pull-statistics/) | 2025 report on 2024 data |
-| BSC rug pull dominance | **76% of all crypto rug pulls on BSC** | coinlaw.io | 2024–2025 |
-| Documented BNB Chain incidents | **71 incidents** in tracked period | coinlaw.io | 2024 |
-| Early 2025 rug frequency | ~3–5 per week (down 66% from 2024) | coinlaw.io | Q1 2025 |
-| r/CryptoMoonShots members | **2.3M+** | reddit.com/r/CryptoMoonShots | Feb 2026 |
-| GoPlus Security adoption | Embedded in 30+ blockchain wallets; **20M+ users** | [gopluslabs.io](https://gopluslabs.io/token-security) | 2025 |
-| TokenSniffer | Free rug/scam scanner; multi-chain including BSC; no AI verdict; slower than GoPlus API | [tokensniffer.com](https://tokensniffer.com) | Feb 2026 |
-| QuillCheck | Free AI scanner; good coverage; no ClawFriend agent integration | [check.quillai.network](https://check.quillai.network) | Feb 2026 |
+| Mixpanel free tier | **Up to 1M events/month** free | [mixpanel.com/pricing](https://mixpanel.com/pricing/) (verified via openpanel.dev/articles/mixpanel-pricing, usermaven.com, livesession.io) | Feb 2026 |
+| Mixpanel Growth plan (entry) | **~$20/month** (scales by event volume, ~$0.00028/event above free tier) | mixpanel.com/pricing, multiple review sources | Feb 2026 |
+| Mixpanel Enterprise plan (entry) | **~$833/month** (typical enterprise entry) | mixpanel.com/pricing, vendr.com marketplace data | Feb 2026 |
+| Amplitude enterprise pricing | **$61,000+/year** for enterprise analytics | Amplitude pricing data, widely cited | 2025 |
+| HBR retention ROI stat | **5% retention increase = 25–95% profit increase** | Harvard Business Review, "The Economics of E-Loyalty" | Widely cited; original 2000, still industry-standard |
+| ClawFriend bonding curve churn impact | Price declines proportionally when any holder sells — churn is financially quantifiable | ClawFriend whitepaper, bonding curve mechanics | Feb 2026 |
+| External API cost for this skill | **$0** — uses ClawFriend `/v1/agents/:id/holdings`, `/v1/tweets`, BSCScan share history | ClawFriend API docs | Feb 2026 |
+| Competitors that can replicate this | **0** — requires internal ClawFriend on-chain + social data correlation | Market analysis | Feb 2026 |
 
-**Gap identified**: GoPlus API powers 20M+ users as embedded layer in wallets — but there is no ClawFriend agent that delivers this via the Social Stream, nor a composable skill that other agents can call before executing a trade. The total rug pull losses ($3.4B) prove the pain is massive and ongoing.
+**Gap identified**: Generic retention analytics (Mixpanel, Amplitude) cannot correlate social engagement with on-chain share sell events — they lack the ClawFriend-specific data. This skill requires no external APIs (zero cost) and is fundamentally impossible to build outside the platform. The HBR stat applies with heightened urgency in a bonding curve model where churn = immediate price impact.
 
 ---
 
-## Skill 4: DeFi Yield Optimizer (BNB Chain)
+## Skill 4: Agent Collab Network & Partnership Pipeline
 
 | Data Point | Value | Source | Date Verified |
 |---|---|---|---|
-| BNB Chain DeFi TVL (lending) | **$52.7 billion** | [defillama.com/chain/bsc](https://defillama.com/chain/bsc) | Jan 2026 |
-| BNB Chain TVL growth 2025 | **+40.5%** | newsbtc.com | Jan 2026 |
-| Beefy Finance TVL (BNB chain) | Multi-billion; auto-compound vaults | [defillama.com/protocol/beefy-finance](https://defillama.com/protocol/beefy-finance) | Feb 2026 |
-| Yield Watch pricing | ~$15/month (verify at yieldwatch.net) | yieldwatch.net | Feb 2026 |
-| DeFiLlama API | Free, public API; real-time APY data across 30+ BNB protocols | [defillama.com/docs/api](https://defillama.com/docs/api) | Feb 2026 |
-| Yearn Finance | ETH-only; not available on BNB | yearn.finance | Feb 2026 |
+| Collabstr premium plan pricing | **$399/month** | [capterra.com/p/203391/Collabstr](https://www.capterra.com/p/203391/Collabstr/) | Feb 2026 |
+| Collabstr free tier | Free to browse; marketplace fee applies per collaboration | capterra.com listing | Feb 2026 |
+| YouTube joint collab immediate audience growth | **52% immediate audience growth** from joint project collaborations | [amraandelma.com/youtube-channel-growth-statistics](https://www.amraandelma.com/youtube-channel-growth-statistics/), 2025 | 2025 |
+| YouTube collab sustained impact | Positive impact on metrics sustained for **up to 24 months** post-collab release | amraandelma.com/youtube-channel-growth-statistics | 2025 |
+| Instagram Collab post feature | Built natively — platform-level validation of cross-creator partnership mechanic | Instagram feature documentation | 2022–present |
+| TikTok Duet/Stitch feature | Built natively — same mechanic validation | TikTok feature documentation | 2021–present |
+| Web3 agent collaboration tools | **0** — no competitor exists with agent × agent partnership matching | Market scan | Feb 2026 |
+| External API cost for this skill | **$0** — uses ClawFriend `/v1/agents`, `/v1/tweets`, `/v1/agents/:id/holdings` | ClawFriend API docs | Feb 2026 |
+| ClawFriend unique collab incentive | Both agents' share prices rise from a successful collab — positive-sum mechanic absent from all Web2 creator platforms | ClawFriend bonding curve mechanics | Feb 2026 |
 
-**Gap identified**: $52.7B in BNB DeFi capital with no agent-executed yield optimizer. Beefy provides auto-compound but in fixed vaults — no cross-protocol optimization or agent execution. DeFiLlama API is free and provides all the yield data needed.
+**Gap identified**: Collabstr charges $399/month for creator collabs with no shared financial upside between collaborators. Instagram and TikTok built native collab features — proving the mechanic works at scale. No tool applies this to an AI agent economy where collaboration has compounding financial value for both parties (share price appreciation on a bonding curve). All data for this skill comes from ClawFriend's internal API — zero external cost.
 
 ---
 
@@ -98,7 +105,7 @@
 | ClawFriend API endpoints used | /v1/agents, /v1/tweets, /v1/share | ClawFriend API docs | Feb 2026 |
 | External API cost | **$0** — uses internal ClawFriend data only | ClawFriend API (free for agent owners) | Feb 2026 |
 
-**Gap identified**: Every ClawFriend agent owner needs analytics but none exist. Social Blade's 10M users prove the creator analytics market is large. Twitter Analytics' 100M+ users prove platform-native analytics are universally adopted. This skill has 100% TAM within ClawFriend: every active agent owner is the target user.
+**Gap identified**: Every ClawFriend agent owner needs analytics but none exist. Social Blade's 10M users prove the creator analytics market is large. Twitter Analytics' 100M+ users prove that platform-native analytics are universally adopted. This skill has 100% TAM within ClawFriend: every active agent owner is the target user.
 
 ---
 
@@ -130,16 +137,31 @@
 
 ---
 
-## Competitor Pricing Summary
+## Influencer Marketing & Creator Economy Benchmarks
 
-| Tool | Pricing | Chain focus | BNB coverage |
+| Metric | Value | Source |
+|---|---|---|
+| Global influencer marketing market (2025) | **$32.55 billion** | Influencer Marketing Hub Benchmark Report 2025 | 2025 |
+| Influencer marketing CAGR (multi-year) | **33.11%** compound annual growth | Statista / Influencer Marketing Hub | 2025 |
+| Brand24 trend monitoring pricing | **$149–$499/month** (annual plans) | brand24.com/pricing | Feb 2026 |
+| BuzzSumo influencer finder pricing | **$199–$499/month** (standard plans) | buzzsumo.com/pricing | Feb 2026 |
+| GRIN influencer CRM pricing | **$399–$1,799/month** | grin.co/pricing | Feb 2026 |
+| YouTube collab immediate growth | **52% immediate audience growth** from joint projects | amraandelma.com/youtube-channel-growth-statistics | 2025 |
+| Collabstr premium pricing | **$399/month** | capterra.com/p/203391/Collabstr | Feb 2026 |
+
+---
+
+## Competitor Pricing Summary (Updated)
+
+| Tool | Pricing | Use Case | Relevance to New Skills |
 |---|---|---|---|
-| Nansen | $49/mo (annual) / $69/mo (monthly) | ETH primarily | Limited |
-| 3Commas | $29–$99/month | CEX + multi-chain | Partial |
-| Zignaly | Profit-share model; $14.99/mo premium | CEX + multi-chain | Partial |
-| Whale Alert | Free (basic) | Multi-chain (not BNB DeFi native) | Generic |
-| DEXTools | Free with DEXT staking or subscription | 70+ chains | Yes |
-| DexScreener | Free | 50+ chains | Yes |
-| Yield Watch | ~$15/month | Multi-chain | Yes |
-| GoPlus Security | Free API | Multi-chain | Yes |
-| TokenSniffer | Free | ETH primary | Limited |
+| BuzzSumo | $199–$499/month | Content marketing + influencer finder | Benchmark for Skill 1 (KOL Radar) |
+| GRIN | $399–$1,799/month | Influencer CRM for DTC brands | Benchmark for Skill 1 (KOL Radar) |
+| Brand24 | $149–$499/month | Social listening + trend monitoring | Benchmark for Skill 2 (Viral Moment) |
+| Buffer | $5/month per channel | Content scheduling | Baseline for Skill 2 (no trend layer) |
+| Mixpanel | Free → $20/month → $833/month | Product analytics + retention | Benchmark for Skill 3 (Churn Predictor) |
+| Collabstr | $399/month premium | Creator collaboration marketplace | Benchmark for Skill 4 (Collab Network) |
+| Nansen | $49/mo (annual) / $69/mo (monthly) | ETH smart money tracking | Benchmark for Skill 5 (Smart Wallet) |
+| 3Commas | $29–$99/month | Trading signals + automation | Benchmark for Skill 5 (Smart Wallet) |
+| Zignaly | Profit-share; $14.99/mo premium | Copy-trading platform | Benchmark for Skill 5 (Smart Wallet) |
+| Whale Alert | Free (basic) | Multi-chain transaction alerts | Benchmark for Skill 5 (Smart Wallet) |
