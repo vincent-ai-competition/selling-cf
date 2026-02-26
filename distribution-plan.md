@@ -213,7 +213,7 @@ Starter accounts to add:
 
 ### Why this channel
 
-Mid-tier KOLs (5K–50K followers) are often willing to collab for mutual exposure because they're also trying to grow. A direct pitch offering equal value exchange — "I post about you, you post about me, we both tag each other" — has a 20–30% acceptance rate when done well. This builds credibility fast and creates content from authentic voices.
+Mid-tier KOLs (5K–50K followers) are often willing to write about a project if the value exchange is clear and asymmetric in their favor. The mechanic: **they write an X Article or thread about ClawFriend → we RT + like + reply heavily to boost their post's reach → bonus: cross-follow between their account and all team accounts**. The KOL gets amplification (which they need); we get genuine third-party content (which we need). No mutual posting obligation on our side.
 
 ### How to find candidates
 
@@ -240,10 +240,11 @@ Hey [name], love your [BNB / AI] content — that thread on [recent topic] was a
 I'm building ClawFriend — first holder-gated AI agent economy on BNB. Still early,
 but the mechanic is wild: people buy your "shares" on-chain to unlock your exclusive alpha.
 
-Would be open to a collab? Happy to write a genuine thread about your work and tag you
-to my audience. Would love the same in return — no scripts, just honest takes.
+Would you be open to writing a short thread or X Article about it?
+We'll RT, like, and reply hard to boost your post — plus cross-follow between accounts.
+We're not asking for anything in return — just honest take.
 
-No rush, just thought it could work for both of us.
+No rush, happy to walk you through a demo first.
 ```
 
 **Step 3 — Follow up once (Day 14 for non-replies)**
@@ -251,9 +252,11 @@ No rush, just thought it could work for both of us.
 - After 2 non-replies: move to next candidate on the list
 
 **Step 4 — Execute collab (within 7 days of agreement)**
-- Write a genuine 5-tweet thread about their work
-- Tag them, post it, DM them the link
-- They post about ClawFriend in return — provide talking points but don't write their post for them
+- Provide demo access + talking points doc to the KOL
+- They write an X Article or thread about ClawFriend (their words, their take)
+- The moment they post: every team account RTs + likes + replies within 30 minutes
+- DM them: "just boosted your post — all accounts RTed, tag us anytime"
+- Cross-follow: team follows their account, ask them to follow @ClawFriend back
 
 ### Metrics
 
@@ -327,7 +330,9 @@ Happy to jump on a call if useful.
 
 ### Why this channel
 
-Sponsored posts last 24 hours. A well-written article about ClawFriend lives permanently on the internet, ranks in search, and gets shared for weeks. A contest creates volume — instead of the team writing 1 article, the contest produces 10–50 articles. The Article Contest is the content acquisition flywheel: the prize attracts writers, writers create content, content attracts readers, readers become users.
+Sponsored posts last 24 hours. A long-form X Article about ClawFriend lives on the writer's profile permanently, gets indexed by X's search, and surfaces to new readers over weeks. A contest creates volume — instead of the team writing 1 article, the contest produces 10–50 articles from different voices. The Article Contest is the content acquisition flywheel: the prize attracts writers, writers create content, content attracts readers, readers become users.
+
+**Platform**: Articles are written exclusively on **X Articles** (long-form writing inside X/Twitter). Writers need an **X Premium subscription** to publish Articles — flag this clearly in the rules so KOLs know to check their subscription status before entering.
 
 **The mechanic**: announce a large headline prize ($20,000) to attract attention and writers. Actual payout: top 5 articles share the prize pool, with the full payout being milestone-based (guaranteed floor: $5,000 total, bonus up to $20K pending platform milestones reached by Day 30). If the contest goes viral and drives 10,000+ users → pay out full $20K range. If it doesn't → floor payout of $5–8K.
 
@@ -335,13 +340,13 @@ Sponsored posts last 24 hours. A well-written article about ClawFriend lives per
 
 ### Contest announcement (post Day 8)
 
-**Headline**: ClawFriend Article Contest — $20,000 in prizes for the best articles about AI agent economies
+**Headline**: ClawFriend Article Contest — $20,000 in prizes for the best X Articles about AI agent economies
 
 **Post format** (Twitter thread from @ClawFriend):
 ```
 🚨 ClawFriend Article Contest — $20,000 in prizes
 
-Write the best article about AI agent economies on BNB and win.
+Write the best X Article about AI agent economies on BNB and win.
 
 Top 5 writers share the prize pool:
 🥇 1st place: up to $8,000
@@ -359,18 +364,60 @@ How to enter: [details in next tweet]
 ```
 How to enter the #ClawFriendArticle contest:
 
-1. Write 500+ words about ClawFriend, AI agents, or holder-gated economies
-2. Publish on Medium, Mirror, Substack, or your blog
-3. Post the link on X with tag @ClawFriend + #ClawFriendArticle
-4. Deadline: Day 30 (exact date)
+1. Write your article using X Articles (requires X Premium)
+2. Include #ClawFriendArticle in the post + tag @ClawFriend
+3. Comment the article link under our pinned contest post
+4. Submit your X handle + article link via our form: [form link]
+5. Deadline: Day 30 (exact date)
 
-Judging: views + shares + originality
+Judging: engagement (views, likes, reposts, replies) + content quality + accuracy
+All participants who submit get the "Creator" role in ClawFriend Discord
 Winners announced Day 32
 ```
 
+### How submissions are tracked (step by step)
+
+**Tracking method 1 — Hashtag**: Monitor `#ClawFriendArticle` on X daily. Every new post using the hashtag is logged to a tracking sheet.
+
+**Tracking method 2 — Comment under pinned post**: Ask all participants to comment their article link under @ClawFriend's pinned contest post. Intern checks this daily and logs new entries.
+
+**Tracking method 3 — Submission form**: Google Form collects: X handle, article link, wallet address. This is the official entry. All three tracking sources are reconciled into one master sheet by marketing lead.
+
+### Judging criteria
+
+Judging is done in two rounds:
+
+**Round 1 — Quantitative (end of Day 30)**
+
+Intern or dev pulls engagement data for each submitted article:
+- Views
+- Likes
+- Reposts
+- Replies
+
+Rank all submissions by total engagement score. Top 10 advance to Round 2.
+
+Note: For top accounts, ask them to record a short screen video showing their post analytics → prevents fake engagement claims.
+
+**Round 2 — Qualitative (Day 31)**
+
+Marketing lead reviews top 10 for:
+- Accuracy: is the ClawFriend description correct?
+- Original insight: does it add a perspective that isn't just copy-paste from our docs?
+- Personal experience: does the writer share a real use case, screenshot, or observation?
+
+Final top 5 are selected. If scores are very close → team makes final call.
+
+**Final verification (Day 31–32)**
+
+Marketing lead DMs top 5 winners directly on X to verify:
+- Confirm they submitted the correct form entry
+- Ask for wallet address for prize transfer
+- Only top articles require this direct verification — not all submissions
+
 ### Planted articles — internal team action
 
-**Day 8–10**: Team writes 3–5 quality articles from separate accounts (not obviously affiliated with ClawFriend):
+**Day 8–10**: Team writes 3–5 quality X Articles from separate accounts (not obviously affiliated with ClawFriend). These accounts must have X Premium active.
 
 **Article ideas for planted content:**
 1. "The Friend.tech mechanic is dead — here's what BNB is doing instead with holder-gated AI"
@@ -379,7 +426,18 @@ Winners announced Day 32
 4. "Virtuals Protocol made $39M in fees — ClawFriend is the BNB version and it's free to try"
 5. "11 AI skills that ClawFriend's holder economy supports — ranked by usefulness"
 
-**Quality bar**: Each planted article must be genuinely good — at least 800 words, real data, screenshots, no obvious shill. If organic writers submit better articles → organic writers win (that's the goal).
+**Quality bar**: Each planted article must be genuinely good — real data, screenshots, first-person angle, minimum 600 words. If organic writers submit better articles → organic writers win (that's the goal).
+
+### Non-winner incentive: Creator Role
+
+**Everyone who submits a valid article gets rewarded**, not just winners. This keeps participation high even when only 1 person takes the top prize.
+
+**Process (Day 30–32)**:
+1. Marketing lead collects all form submissions with X handles
+2. DM each participant: "Thank you for submitting! You've been added to our Creator list."
+3. Admin sets "Creator" role in ClawFriend Discord for each participant (manual — check X handle matches Discord username or ask them to verify)
+4. Post in Discord: "Shoutout to our #ClawFriendArticle creators — [list of handles]. Creator role is now active. Rewards for Creator role holders will be announced in Week 5."
+5. The promise of future Creator-gated rewards keeps these writers engaged and active in the community
 
 ### Where to announce the contest
 
@@ -389,7 +447,7 @@ Winners announced Day 32
 | All team KOL accounts | RT + comment on contest announcement | Day 8 |
 | KOL booking (Channel 7) | KOLs shill contest to their audience | Day 10–14 |
 | BNB Chain Discord (#dapps, #announcements) | Post contest with prize details | Day 8 |
-| r/bnbchain + r/CryptoCurrency | Post: "ClawFriend is running a $20K article contest for AI/crypto writers" | Day 9 |
+| r/bnbchain + r/CryptoCurrency | Post: "ClawFriend is running a $20K X Article contest for AI/crypto writers" | Day 9 |
 | Crypto writing communities on Discord | DM moderators: "can we post our contest here?" | Day 9–10 |
 | Partner projects (Channel 5) | Ask partners to share with their communities | Week 2–3 |
 
@@ -397,10 +455,11 @@ Winners announced Day 32
 
 | Metric | Target |
 |---|---|
-| Contest article submissions | 20–50 articles |
-| Total views on contest articles | 50,000–200,000 |
+| Contest article submissions | 20–50 X Articles |
+| Total engagement on contest articles | 500,000+ combined impressions |
 | New ClawFriend users from contest | 3,000–10,000 |
 | X impressions from #ClawFriendArticle tag | 100,000+ |
+| Participants who earn Creator Discord role | 20–50 |
 | Budget spent vs outcomes | $5K → 10,000 users = $0.50 CAC |
 
 **Kill signal**: If < 5 organic submissions by Day 20 (excluding planted articles) → activate additional KOL budget to boost contest promotion. If < 500 users by Day 25 → accept that floor payout ($5K) is the cost, redirect energy to Month 2 planning.
@@ -444,7 +503,7 @@ A KOL with 50K followers writing a 10-tweet thread generates 30,000–100,000 im
 
 | Deliverable | Description | When |
 |---|---|---|
-| Primary: Thread or article | 8–12 tweets OR 600+ word article on Medium/Substack about ClawFriend + AI agent economy | Week 2–3 |
+| Primary: X Article or thread | 8–12 tweet thread OR X Article (600+ words) about ClawFriend + AI agent economy. Must use X Articles format if writing long-form — requires X Premium. | Week 2–3 |
 | Secondary: Contest shill | 1–2 posts about the Article Contest ("writers, check this out — $20K up for grabs: [link]") | Same week as primary post |
 | Optional: Space or AMA | 30–60 min X Space discussion about AI agent economies on BNB | Week 3 |
 

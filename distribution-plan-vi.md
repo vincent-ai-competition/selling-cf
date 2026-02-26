@@ -213,7 +213,7 @@ Tài khoản gợi ý để thêm:
 
 ### Tại sao cần kênh này
 
-KOL mid-tier (5K–50K followers) thường sẵn sàng collab vì họ cũng đang cố gắng tăng trưởng. Một pitch thẳng thắn đề nghị đổi value ngang nhau — "mình post về bạn, bạn post về mình, hai bên tag nhau" — có tỷ lệ chấp nhận 20–30% khi thực hiện đúng cách. Điều này nhanh chóng xây dựng credibility và tạo ra nội dung từ những tiếng nói thật.
+KOL mid-tier (5K–50K followers) thường sẵn sàng viết về một dự án nếu value exchange rõ ràng và nghiêng về phía lợi ích của họ. Cơ chế: **họ viết X Article hoặc thread về ClawFriend → team mình RT + like + reply mạnh để boost reach cho bài viết của họ → bonus: follow chéo giữa tài khoản của họ và tất cả tài khoản team**. KOL nhận được amplification (thứ họ cần); mình nhận được nội dung từ bên thứ ba thật sự (thứ mình cần). Không có nghĩa vụ mình viết bài về họ.
 
 ### Cách tìm ứng viên
 
@@ -241,11 +241,11 @@ Mình đang build ClawFriend — AI agent economy đầu tiên trên BNB với h
 Còn sớm, nhưng cơ chế rất thú vị: người ta mua "shares" của bạn on-chain để mở khóa
 alpha độc quyền từ bạn.
 
-Bạn có muốn collab không? Mình sẵn sàng viết thread thật sự về công việc của bạn
-và tag bạn với audience của mình. Mong bạn làm tương tự về phía mình — không cần script,
-chỉ cần nhận xét thật sự.
+Bạn có muốn viết một thread hoặc X Article ngắn về ClawFriend không?
+Bọn mình sẽ RT, like và reply mạnh để boost bài của bạn — cộng với follow chéo giữa các tài khoản.
+Mình không yêu cầu gì đổi lại — chỉ cần nhận xét thật sự từ bạn.
 
-Không vội, chỉ nghĩ có thể hợp lý cho cả hai bên.
+Không vội, mình sẵn sàng demo trước nếu bạn muốn.
 ```
 
 **Bước 3 — Follow up một lần (Ngày 14 cho những người chưa trả lời)**
@@ -253,9 +253,11 @@ Không vội, chỉ nghĩ có thể hợp lý cho cả hai bên.
 - Sau 2 lần không trả lời: chuyển sang ứng viên tiếp theo trong danh sách
 
 **Bước 4 — Thực hiện collab (trong 7 ngày sau khi đồng ý)**
-- Viết một thread 5-tweet thật sự về công việc của họ
-- Tag họ, post lên, DM link cho họ
-- Họ post về ClawFriend đổi lại — cung cấp talking points nhưng không viết thay
+- Cung cấp demo access + tài liệu talking points cho KOL
+- Họ viết X Article hoặc thread về ClawFriend (theo cách của họ, quan điểm của họ)
+- Ngay khi họ post: tất cả tài khoản team RT + like + reply trong vòng 30 phút
+- DM lại cho họ: "vừa boost bài của bạn rồi — tất cả tài khoản đã RT, tag bọn mình bất cứ lúc nào nhé"
+- Follow chéo: team follow tài khoản của họ, nhờ họ follow @ClawFriend lại
 
 ### Chỉ tiêu
 
@@ -330,7 +332,9 @@ Có thể call nếu bạn thấy có ích.
 
 ### Tại sao cần kênh này
 
-Post trả phí sống 24 giờ. Một bài viết hay về ClawFriend tồn tại vĩnh viễn trên internet, rank trên search, và được chia sẻ trong nhiều tuần. Một contest tạo ra khối lượng — thay vì team viết 1 bài, contest tạo ra 10–50 bài. Article Contest là content acquisition flywheel: giải thưởng thu hút người viết, người viết tạo nội dung, nội dung thu hút người đọc, người đọc trở thành user.
+Post trả phí sống 24 giờ. Một X Article về ClawFriend tồn tại vĩnh viễn trên profile người viết, được X index và hiển thị cho người đọc mới trong nhiều tuần. Một contest tạo ra khối lượng — thay vì team viết 1 bài, contest tạo ra 10–50 bài từ nhiều giọng nói khác nhau. Article Contest là content acquisition flywheel: giải thưởng thu hút người viết, người viết tạo nội dung, nội dung thu hút người đọc, người đọc trở thành user.
+
+**Nền tảng**: Tất cả bài viết PHẢI viết trên **X Articles** (tính năng long-form của X/Twitter). Người tham gia cần có **X Premium** để publish X Articles — ghi rõ điều này trong rules để KOL biết kiểm tra subscription trước khi tham gia.
 
 **Cơ chế**: Announce giải thưởng headline lớn ($20,000) để thu hút sự chú ý và người viết. Payout thực tế: top 5 bài chia sẻ prize pool, với toàn bộ payout theo milestone (đảm bảo sàn: $5,000 tổng, bonus đến $20K nếu đạt milestone platform vào Ngày 30). Nếu contest viral và kéo 10,000+ user → trả full $20K. Nếu không → payout sàn $5–8K.
 
@@ -338,13 +342,13 @@ Post trả phí sống 24 giờ. Một bài viết hay về ClawFriend tồn t�
 
 ### Announcement contest (post Ngày 8)
 
-**Headline**: ClawFriend Article Contest — $20,000 tiền thưởng cho những bài viết hay nhất về AI agent economy
+**Headline**: ClawFriend Article Contest — $20,000 tiền thưởng cho những X Article hay nhất về AI agent economy
 
 **Format post** (Twitter thread từ @ClawFriend):
 ```
 🚨 ClawFriend Article Contest — $20,000 tiền thưởng
 
-Viết bài hay nhất về AI agent economy trên BNB và chiến thắng.
+Viết X Article hay nhất về AI agent economy trên BNB và chiến thắng.
 
 Top 5 tác giả chia sẻ prize pool:
 🥇 Hạng 1: đến $8,000
@@ -362,18 +366,60 @@ Cách tham gia: [chi tiết trong tweet tiếp theo]
 ```
 Cách tham gia #ClawFriendArticle contest:
 
-1. Viết 500+ từ về ClawFriend, AI agents, hoặc holder-gated economy
-2. Đăng trên Medium, Mirror, Substack, hoặc blog của bạn
-3. Post link trên X với tag @ClawFriend + #ClawFriendArticle
-4. Deadline: Ngày 30 (ngày cụ thể)
+1. Viết bài bằng X Articles (cần X Premium)
+2. Gắn #ClawFriendArticle trong bài + tag @ClawFriend
+3. Comment link bài dưới post contest đã pin của @ClawFriend
+4. Submit X handle + link bài qua form: [link form]
+5. Deadline: Ngày 30 (ngày cụ thể)
 
-Chấm điểm: lượt xem + chia sẻ + tính nguyên bản
+Chấm điểm: engagement (views, likes, reposts, replies) + chất lượng nội dung + độ chính xác
+Tất cả người tham gia submit bài đều nhận role "Creator" trên Discord ClawFriend
 Công bố winner Ngày 32
 ```
 
+### Cách theo dõi submissions (từng bước)
+
+**Phương pháp 1 — Hashtag**: Theo dõi `#ClawFriendArticle` trên X hàng ngày. Mỗi bài mới dùng hashtag được log vào tracking sheet.
+
+**Phương pháp 2 — Comment dưới bài pinned**: Yêu cầu tất cả người tham gia comment link bài của họ dưới post contest đã pin của @ClawFriend. Intern check hàng ngày và log entries mới.
+
+**Phương pháp 3 — Form submit**: Google Form thu thập: X handle, link bài, địa chỉ ví. Đây là entry chính thức. Cả 3 nguồn được đối chiếu vào một master sheet bởi marketing lead.
+
+### Tiêu chí chấm điểm
+
+Chấm điểm chia 2 vòng:
+
+**Vòng 1 — Định lượng (cuối Ngày 30)**
+
+Intern hoặc dev pull dữ liệu engagement cho từng bài đã submit:
+- Views
+- Likes
+- Reposts
+- Replies
+
+Xếp hạng tất cả submissions theo tổng điểm engagement. Top 10 vào Vòng 2.
+
+Lưu ý: Với các tài khoản top, yêu cầu họ quay video ngắn hiển thị analytics của post → ngăn chặn fake engagement.
+
+**Vòng 2 — Định tính (Ngày 31)**
+
+Marketing lead review top 10 về:
+- Độ chính xác: mô tả ClawFriend có đúng không?
+- Insight nguyên bản: có thêm góc nhìn mới hay chỉ copy-paste từ docs?
+- Trải nghiệm cá nhân: người viết có chia sẻ use case thật, screenshot, quan sát thực tế không?
+
+Chọn ra top 5 cuối cùng. Nếu điểm quá gần nhau → team quyết định.
+
+**Verify lần cuối (Ngày 31–32)**
+
+Marketing lead DM trực tiếp 5 winner top trên X để xác nhận:
+- Confirm họ đã submit đúng form
+- Lấy địa chỉ ví để chuyển tiền thưởng
+- Chỉ verify trực tiếp với các bài top — không cần verify tất cả
+
 ### Bài viết planted — hành động nội bộ team
 
-**Ngày 8–10**: Team viết 3–5 bài chất lượng cao từ tài khoản riêng (không rõ ràng liên quan đến ClawFriend):
+**Ngày 8–10**: Team viết 3–5 X Articles chất lượng cao từ tài khoản riêng (không rõ ràng liên quan đến ClawFriend). Các tài khoản này cần có X Premium active.
 
 **Ý tưởng bài cho nội dung planted:**
 1. "Cơ chế Friend.tech đã chết — đây là những gì BNB đang làm thay thế với holder-gated AI"
@@ -382,7 +428,18 @@ Công bố winner Ngày 32
 4. "Virtuals Protocol kiếm $39M fees — ClawFriend là phiên bản BNB và miễn phí để thử"
 5. "11 AI skills mà ClawFriend's holder economy hỗ trợ — xếp hạng theo độ hữu ích"
 
-**Tiêu chuẩn chất lượng**: Mỗi bài planted phải thật sự hay — ít nhất 800 từ, dữ liệu thật, screenshots, không shill lộ liễu. Nếu writer organic submit bài tốt hơn → writer organic thắng (đó là mục tiêu).
+**Tiêu chuẩn chất lượng**: Mỗi bài planted phải thật sự hay — dữ liệu thật, screenshots, góc nhìn ngôi thứ nhất, tối thiểu 600 từ. Nếu writer organic submit bài tốt hơn → writer organic thắng (đó là mục tiêu).
+
+### Phần thưởng cho người không thắng giải: Role Creator
+
+**Tất cả người submit bài hợp lệ đều được thưởng**, không chỉ winner. Điều này giữ tỷ lệ tham gia cao ngay cả khi chỉ 1 người giành giải lớn.
+
+**Quy trình (Ngày 30–32)**:
+1. Marketing lead thu thập tất cả form submissions với X handle
+2. DM từng người tham gia: "Cảm ơn bạn đã submit! Bạn đã được thêm vào danh sách Creator của chúng mình."
+3. Admin set role "Creator" trong Discord ClawFriend cho từng người tham gia (thủ công — check X handle khớp với Discord username hoặc nhờ họ xác nhận)
+4. Post trong Discord: "Shoutout các creator tham gia #ClawFriendArticle — [danh sách handles]. Role Creator đã active. Phần thưởng cho Creator role holders sẽ được announce ở Tuần 5."
+5. Lời hứa về phần thưởng Creator-gated trong tương lai giữ các writer này engaged và active trong cộng đồng
 
 ### Nơi announce contest
 
@@ -392,7 +449,7 @@ Công bố winner Ngày 32
 | Tất cả tài khoản KOL team | RT + comment bài announcement | Ngày 8 |
 | KOL booking (Kênh 7) | KOL shill contest với audience của họ | Ngày 10–14 |
 | BNB Chain Discord (#dapps, #announcements) | Post contest với chi tiết giải thưởng | Ngày 8 |
-| r/bnbchain + r/CryptoCurrency | Post: "ClawFriend đang chạy $20K article contest cho writers AI/crypto" | Ngày 9 |
+| r/bnbchain + r/CryptoCurrency | Post: "ClawFriend đang chạy $20K X Article contest cho writers AI/crypto" | Ngày 9 |
 | Cộng đồng viết crypto trên Discord | DM moderators: "chúng tôi có thể post contest ở đây không?" | Ngày 9–10 |
 | Dự án đối tác (Kênh 5) | Nhờ đối tác chia sẻ với cộng đồng của họ | Tuần 2–3 |
 
@@ -400,10 +457,11 @@ Công bố winner Ngày 32
 
 | Chỉ số | Mục tiêu |
 |---|---|
-| Bài viết submission cho contest | 20–50 bài |
-| Tổng lượt xem các bài contest | 50,000–200,000 |
+| Submissions X Article cho contest | 20–50 bài |
+| Tổng engagement các bài contest | 500,000+ impressions cộng lại |
 | User ClawFriend mới từ contest | 3,000–10,000 |
 | X impressions từ tag #ClawFriendArticle | 100,000+ |
+| Người tham gia nhận role Creator Discord | 20–50 |
 | Ngân sách so với kết quả | $5K → 10,000 users = $0.50 CAC |
 
 **Tín hiệu dừng**: Nếu < 5 submission organic vào Ngày 20 (không tính bài planted) → activate thêm KOL budget để boost contest. Nếu < 500 users vào Ngày 25 → chấp nhận payout sàn ($5K) là chi phí, chuyển năng lượng sang lập kế hoạch Tháng 2.
@@ -444,7 +502,7 @@ KOL với 50K followers viết thread 10 tweets tạo ra 30,000–100,000 impres
 
 | Deliverable | Mô tả | Khi nào |
 |---|---|---|
-| Chính: Thread hoặc bài viết | 8–12 tweets HOẶC bài 600+ từ trên Medium/Substack về ClawFriend + AI agent economy | Tuần 2–3 |
+| Chính: X Article hoặc thread | Thread 8–12 tweets HOẶC X Article (600+ từ) về ClawFriend + AI agent economy. Phải dùng format X Articles nếu viết long-form — cần X Premium. | Tuần 2–3 |
 | Phụ: Shill contest | 1–2 posts về Article Contest ("writers, check cái này — $20K đang chờ: [link]") | Cùng tuần với post chính |
 | Tùy chọn: Space hoặc AMA | 30–60 phút X Space thảo luận về AI agent economy trên BNB | Tuần 3 |
 
