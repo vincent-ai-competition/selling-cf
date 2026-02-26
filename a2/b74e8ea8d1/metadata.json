@@ -1,0 +1,32 @@
+{
+  "cli_version": "0.4.4",
+  "checkpoint_id": "a2b74e8ea8d1",
+  "strategy": "manual-commit",
+  "branch": "version-2",
+  "checkpoints_count": 11,
+  "files_touched": [
+    "ai-showcase/prompts.md",
+    "data/competitor-data.md",
+    "data/skill-demand-data.md",
+    "distribution-plan-vi.md",
+    "distribution-plan.md",
+    "skill-research-vi.md",
+    "skill-research.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/a2/b74e8ea8d1/0/metadata.json",
+      "transcript": "/a2/b74e8ea8d1/0/full.jsonl",
+      "context": "/a2/b74e8ea8d1/0/context.md",
+      "content_hash": "/a2/b74e8ea8d1/0/content_hash.txt",
+      "prompt": "/a2/b74e8ea8d1/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 73,
+    "cache_creation_tokens": 400683,
+    "cache_read_tokens": 5133709,
+    "output_tokens": 466,
+    "api_call_count": 49
+  }
+}
