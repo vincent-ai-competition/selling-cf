@@ -1,0 +1,27 @@
+{
+  "cli_version": "0.4.4",
+  "checkpoint_id": "8aa887ff57df",
+  "strategy": "manual-commit",
+  "branch": "version-2",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "distribution-plan-vi.md",
+    "distribution-plan.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/8a/a887ff57df/0/metadata.json",
+      "transcript": "/8a/a887ff57df/0/full.jsonl",
+      "context": "/8a/a887ff57df/0/context.md",
+      "content_hash": "/8a/a887ff57df/0/content_hash.txt",
+      "prompt": "/8a/a887ff57df/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 12,
+    "cache_creation_tokens": 120230,
+    "cache_read_tokens": 1125736,
+    "output_tokens": 82,
+    "api_call_count": 10
+  }
+}
