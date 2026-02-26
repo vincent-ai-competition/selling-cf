@@ -3,7 +3,7 @@
   "checkpoint_id": "a2b74e8ea8d1",
   "strategy": "manual-commit",
   "branch": "version-2",
-  "checkpoints_count": 11,
+  "checkpoints_count": 12,
   "files_touched": [
     "ai-showcase/prompts.md",
     "data/competitor-data.md",
@@ -20,6 +20,13 @@
       "context": "/a2/b74e8ea8d1/0/context.md",
       "content_hash": "/a2/b74e8ea8d1/0/content_hash.txt",
       "prompt": "/a2/b74e8ea8d1/0/prompt.txt"
+    },
+    {
+      "metadata": "/a2/b74e8ea8d1/1/metadata.json",
+      "transcript": "/a2/b74e8ea8d1/1/full.jsonl",
+      "context": "",
+      "content_hash": "/a2/b74e8ea8d1/1/content_hash.txt",
+      "prompt": ""
     }
   ],
   "token_usage": {
