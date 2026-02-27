@@ -4,6 +4,8 @@
 > **Competition**: Cook a Web3 Skill Marketplace — 3 days, individual
 > **Goal**: Scored on Competitive Landscape (25%) + Skill Research (25%) + Distribution Plan (40%) + Presentation (10%)
 
+**🎯 Presentation (Gemini Canvas):** [https://gemini.google.com/share/2adb23b8ed5a](https://gemini.google.com/share/2adb23b8ed5a)
+
 ---
 
 ## The Winning Strategy (TL;DR)
@@ -374,6 +376,8 @@ Every channel must have:
 | Morning | Create Gemini Canvas web presentation (React + Tailwind) | Slide deck live |
 | Pre-presentation | Push all files to GitHub. Paste link in Telegram group. | Submission complete |
 | Presentation | 15–20 min pitch + Q&A | Win |
+
+**🎯 Presentation (Gemini Canvas):** [https://gemini.google.com/share/2adb23b8ed5a](https://gemini.google.com/share/2adb23b8ed5a)
 
 ---
 
