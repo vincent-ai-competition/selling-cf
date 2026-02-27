@@ -1,0 +1,28 @@
+{
+  "cli_version": "0.4.4",
+  "checkpoint_id": "442f3918fca0",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 6,
+  "files_touched": [
+    "index.html",
+    "presentation.md",
+    "prompt-gemini-5slides.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/44/2f3918fca0/0/metadata.json",
+      "transcript": "/44/2f3918fca0/0/full.jsonl",
+      "context": "/44/2f3918fca0/0/context.md",
+      "content_hash": "/44/2f3918fca0/0/content_hash.txt",
+      "prompt": "/44/2f3918fca0/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 57,
+    "cache_creation_tokens": 479251,
+    "cache_read_tokens": 3372216,
+    "output_tokens": 98241,
+    "api_call_count": 38
+  }
+}
